@@ -3,6 +3,10 @@
 document.addEventListener('DOMContentLoaded', function () {
   'use strict';
 
+  if (location.pathname.endsWith('/') || location.pathname.endsWith('/index.html') || location.pathname.endsWith('/index.htm')) {
+    document.body.classList.add('home-page');
+  }
+
   /* 0. Theme toggle: persists choice to localStorage (read by the inline head script) */
   var root = document.documentElement;
   document.querySelectorAll('.theme-toggle').forEach(function (btn) {
