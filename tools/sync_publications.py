@@ -13,7 +13,7 @@ import html
 import json
 import re
 import sys
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -103,6 +103,42 @@ def classify_blocks(blocks: list[dict]) -> list[dict]:
     return publications
 
 
+def publication_key(publication: dict) -> str | None:
+    """Create a stable identity from the quoted title for enrichment reuse."""
+    match = re.search(r'"(.+?)"', publication.get("citation", ""))
+    if not match:
+        return None
+    return re.sub(r"\W+", "", match.group(1)).lower()
+
+
+def retain_verified_metadata(publications: list[dict], destination: Path) -> None:
+    """Keep previously verified links/counts through a source refresh.
+
+    The source page is authoritative for bibliographic text, but it does not
+    contain every publisher URL, GitHub repository, or Scholar count found by
+    the scheduled enrichment steps.  Those fields are retained by exact title.
+    """
+    if not destination.exists():
+        return
+    try:
+        previous = json.loads(destination.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return
+    prior: dict[str, dict] = {}
+    for item in previous.get("publications", []):
+        key = publication_key(item)
+        if key:
+            prior[key] = item
+    retained_fields = ("paper", "paperSource", "code", "codeSource", "citations")
+    for publication in publications:
+        old = prior.get(publication_key(publication))
+        if not old:
+            continue
+        for field in retained_fields:
+            if field in old:
+                publication[field] = old[field]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--out", default="docs/data/publications.json")
@@ -119,10 +155,11 @@ def main() -> int:
         )
     output = {
         "source": args.url,
-        "syncedAt": datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "syncedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "publications": publications,
     }
     destination = Path(args.out)
+    retain_verified_metadata(publications, destination)
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Synced {len(publications)} publications to {destination}")
