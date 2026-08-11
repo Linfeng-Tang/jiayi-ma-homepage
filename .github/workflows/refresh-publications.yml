@@ -1,0 +1,34 @@
+name: Refresh Jiayi Ma publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "18 1 * * *" # 09:18 China Standard Time (UTC+8)
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Synchronise and enrich publication data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python tools/sync_publications.py --out res/publications.json
+          python tools/enrich_publications.py --file res/publications.json
+          python tools/resolve_paper_links.py --file res/publications.json --limit 20 --workers 4 --delay 0
+          python tools/discover_github_links.py --file res/publications.json --limit 25
+          python tools/sync_scholar.py --file res/publications.json
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add res/publications.json
+          git diff --cached --quiet || git commit -m "Refresh publications, links, and citations"
+          git push
