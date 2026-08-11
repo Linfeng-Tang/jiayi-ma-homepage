@@ -1288,6 +1288,7 @@ sup, sub {
 .jm-profile-mark { display: flex; align-items: center; justify-content: center; width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(145deg, #234d88, #10284e); color: #fff; font-family: var(--font-serif); font-size: 4.35rem; font-weight: 600; letter-spacing: -.08em; box-shadow: 0 12px 28px rgba(22, 48, 92, .23); }
 .jiayi-home .contact { margin-top: 16px; font-size: 14px; }
 .jiayi-home .contact a { color: var(--primary); }
+.home-page .students-section { display: none; }
 .section-intro { margin-bottom: 16px !important; }
 .mentorship-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 0 0 18px; }
 .mentorship-summary > div { padding: 12px 14px; border: 1px solid var(--border); border-radius: 9px; background: var(--accent-soft); }
@@ -1313,6 +1314,21 @@ sup, sub {
 .honors-list li::before { content: none; }
 .honors-list time { color: var(--amber); font: 700 12px var(--font-sans); letter-spacing: .02em; padding-top: 2px; }
 .honors-list strong { color: var(--primary); }
+.standalone-content { padding-top: 24px; padding-bottom: 48px; }
+.standalone-section .mentorship-summary { display: none; }
+.standalone-section .student-group { margin-top: 18px; overflow: visible; border: 0; }
+.standalone-section .student-group summary { padding: 0 0 9px; background: transparent; border-bottom: 1px solid var(--border); cursor: default; font-size: 1rem; }
+.standalone-section .student-group summary::marker, .standalone-section .group-count { display: none; }
+.standalone-section .student-list, .standalone-section .student-list.compact { padding: 8px 0; }
+.standalone-section .student-list li, .standalone-section .student-list.compact li { display: block; padding: 7px 0; font-size: 15px; line-height: 1.72; }
+.standalone-section .student-list strong, .standalone-section .student-list span, .standalone-section .student-list em, .standalone-section .student-list b { display: inline; font: inherit; color: inherit; }
+.standalone-section .student-list strong { font-weight: 700; }
+.standalone-section .student-list span::before, .standalone-section .student-list em::before, .standalone-section .student-list b::before { content: "，"; }
+.standalone-section .honors-list li { grid-template-columns: 100px 1fr; padding: 9px 0; font-size: 16px; line-height: 1.65; }
+.standalone-section .honors-list time { color: var(--text); font: inherit; }
+
+/* Citation pills use text only; no leading glyph. */
+a.cite-badge::before { content: none; }
 .jiayi-publications { padding-top: 24px; padding-bottom: 48px; }
 .jiayi-publications > section { margin-bottom: 0; }
 .pubs-search { display: flex; align-items: center; gap: 10px; margin: 0 0 12px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 9px; background: var(--accent-soft); font-family: var(--font-sans); }
