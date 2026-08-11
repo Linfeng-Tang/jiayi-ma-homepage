@@ -13,6 +13,42 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  /* 0b. Keep the overview text aligned with the public Google Sites profile.
+         Text is rendered with textContent only, so remote markup is never
+         injected into this site. The static HTML remains a graceful fallback. */
+  var sourceBio = document.getElementById('source-bio');
+  var sourceResearch = document.getElementById('source-research');
+  var sourceActivities = document.getElementById('source-activities');
+  if (sourceBio || sourceResearch || sourceActivities) {
+    var setParagraphs = function (node, values) {
+      if (!node || !Array.isArray(values) || !values.length) return;
+      node.replaceChildren();
+      values.forEach(function (value) {
+        var p = document.createElement('p');
+        p.textContent = value;
+        node.appendChild(p);
+      });
+    };
+    var setList = function (node, values) {
+      if (!node || !Array.isArray(values) || !values.length) return;
+      node.replaceChildren();
+      values.forEach(function (value) {
+        var li = document.createElement('li');
+        li.textContent = value;
+        node.appendChild(li);
+      });
+    };
+    fetch('res/profile.json', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d) return;
+        setParagraphs(sourceBio, d.bio);
+        setList(sourceResearch, d.research);
+        setList(sourceActivities, d.activities);
+      })
+      .catch(function () {});
+  }
+
   /* 1. Citation badges: "4000+ citations" -> pill; "3.9k stars" -> star pill
         (the star glyph comes from CSS, the number is refreshed in step 5) */
   document.querySelectorAll('a').forEach(function (a) {
@@ -176,6 +212,7 @@ document.addEventListener('DOMContentLoaded', function () {
         refreshed too (rounded down to the nearest 100, matching the badges). */
   var gsCit = document.getElementById('gs-citations');
   var gsH = document.getElementById('gs-hindex');
+  var gsStatus = document.getElementById('scholar-sync-status');
   if (gsCit || gsH) {
     fetch('res/scholar.json', { cache: 'no-store' })
       .then(function (r) { return r.ok ? r.json() : null; })
@@ -200,6 +237,15 @@ document.addEventListener('DOMContentLoaded', function () {
         };
         if (gsCit && d.citations) countUp(gsCit, d.citations);
         if (gsH && d.hindex) countUp(gsH, d.hindex);
+        if (gsStatus && d.syncedAt) {
+          var date = new Date(d.syncedAt);
+          var pad = function (n) { return String(n).padStart(2, '0'); };
+          var china = new Date(date.getTime() + 8 * 60 * 60 * 1000);
+          gsStatus.textContent = isNaN(date.getTime()) ? 'updated' :
+            china.getUTCFullYear() + '-' + pad(china.getUTCMonth() + 1) + '-' + pad(china.getUTCDate()) +
+            ' ' + pad(china.getUTCHours()) + ':' + pad(china.getUTCMinutes()) + ' CST';
+          gsStatus.title = 'Last successful Google Scholar sync: ' + d.syncedAt;
+        }
         if (d.years) {
           // yearly-citation bar chart next to the totals
           var stats = document.querySelector('.scholar-stats');
