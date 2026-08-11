@@ -5,15 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Publications by Jiayi Ma, Wuhan University.">
   <title>Publications | Jiayi Ma</title>
+  <script>
+    (function () { var theme = null; try { theme = localStorage.getItem('theme'); } catch (e) {} if (theme !== 'light' && theme !== 'dark') { theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; } document.documentElement.setAttribute('data-theme', theme); })();
+  </script>
   <link rel="stylesheet" href="res/mystyle.css">
+  <script src="res/site.js" defer></script>
   <script src="res/jiayi-publications.js" defer></script>
 </head>
 <body>
   <nav class="topnav" aria-label="Main navigation">
     <div class="container">
       <a href="index.htm">HOME</a>
-      <a class="active" href="pubs.htm" aria-current="page">PUBLICATIONS</a>
-      <a href="https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor" target="_blank" rel="noreferrer">PROFILE</a>
+      <a class="active" href="pubs.htm" aria-current="page">PUBLICATION</a>
+      <a href="index.htm#research">RESEARCH</a>
+      <a class="lang" href="https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor" target="_blank" rel="noreferrer">PROFILE</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/></svg></button>
     </div>
   </nav>
   <main class="container jiayi-publications">
