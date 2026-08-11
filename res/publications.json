@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-08-11T13:47:27Z",
+  "syncedAt": "2026-08-11T19:29:42Z",
   "publications": [
     {
       "year": "2026",
@@ -283,7 +283,9 @@
       "citation": "Zequn Liu, Liangkuan Zhu, Jiajun Chen, Xiaoyu Lin, Yining Xie, Jing Zhao, and Jiayi Ma. \"MAP-MIL: Dual-branch Collaborative Learning of Mask Enhancement and Pseudo-bag Generation for Whole Slide Image Classification\", Expert Systems with Applications, 302, pp. 130525, Mar. 2026.",
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0957417425041405",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/Pikachu-one/MAP-MIL",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2026",
@@ -295,7 +297,9 @@
       "citation": "Yifan Xia and Jiayi Ma*. \"Locality Optimization Refinement with Deformation for Shape Matching via Functional Maps\", International Journal of Computer Vision, 134(2), pp. 76: 1-17, Feb. 2026.",
       "links": [],
       "paper": "https://link.springer.com/10.1007/s11263-025-02642-w",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/XiaYifan1999/LORD",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2026",
@@ -307,35 +311,45 @@
       "citation": "Hao Zhang, Yanping Zha, Qingwei Zhuang, Zhenfeng Shao, and Jiayi Ma*. \"Robust Fusion Controller: Degradation-Aware Image Fusion with Fine-Grained Language Instructions\", in Proceedings of the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI), pp. 12466-12474, Jan. 2026 (Oral).",
       "links": [],
       "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/38240",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/HaoZhang1018/RFC",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2026",
       "citation": "Jiajun Le and Jiayi Ma*. \"GeoMoE: Divide-and-Conquer Motion Field Modeling with Mixture-of-Experts for Two-View Geometry\", in Proceedings of the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI), pp. 5845-5853, Jan. 2026.",
       "links": [],
       "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/37506",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/JiajunLe/GeoMoE",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2026",
       "citation": "Yuxin Deng, Botian Wang, Kaining Zhang, Hao Zhang, and Jiayi Ma*. \"SGPFeat: Semantic and Geometric Priors for Multi-modal Image Matching\", in Proceedings of the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI), pp. 3569-3577, Jan. 2026 (Oral).",
       "links": [],
       "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/37355",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/wbt6661/SGPFeat",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2026",
       "citation": "Qinglong Yan, Tong Zou, Xunpeng Yi, Xinyu Xiang, Xuying Wu, Hao Zhang, and Jiayi Ma*. \"Diff-NAT: Better Naturalistic and Aggressive Adversarial Attacks via Class-Optimized Diffusion for Object Detection\", in Proceedings of the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI), pp. 11541-11549, Jan. 2026.",
       "links": [],
       "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/38137",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/QinglongYan-hub/Diff-NAT",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2026",
       "citation": "Yifan Xia, Tianwei Ye, Jun Huang, Xiaoguang Mei, and Jiayi Ma*. \"Probabilistic Deformation Consistency for Unsupervised Shape Matching\", in Proceedings of the Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI), pp. 10951-10959, Jan. 2026.",
       "links": [],
       "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/38072",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/XiaYifan1999/PDCMatch",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2026",
@@ -354,21 +368,27 @@
     {
       "year": "2026",
       "citation": "Xiang Fang, Zizhuo Li, and Jiayi Ma*. \"SigMa: Semantic Similarity-Guided Semi-Dense Feature Matching\", IEEE Transactions on Image Processing, 35, pp. 872-887, Jan. 2026.",
-      "links": []
+      "links": [],
+      "code": "https://github.com/ShineFox/SigMa",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2026",
       "citation": "Xiang Fang, Shihua Zhang, Hao Zhang, Xiaoguang Mei, Huabing Zhou, and Jiayi Ma*. \"Selecting and Pruning: A Differentiable Causal Sequentialized State-Space Model for Two-View Correspondence Learning\", IEEE Transactions on Image Processing, 35, pp. 816-829, Jan. 2026.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/11357475/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/ShineFox/CorrMamba",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2026",
       "citation": "Linfeng Tang, Chunyu Li, and Jiayi Ma*. \"Mask-DiFuser: A Masked Diffusion Model for Unified Unsupervised Image Fusion\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 48(1), pp. 591-608, Jan. 2026.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/11162636/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/Linfeng-Tang/Mask-DiFuser",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
@@ -381,28 +401,36 @@
     {
       "year": "2025",
       "citation": "Han Xu, Yuyang Li, Yunfei Deng, Jiayi Ma, and Guangcan Liu. \"Deno-IF: Unsupervised Noisy Visible and Infrared Image Fusion Method\", in Advances in Neural Information Processing Systems (NeurIPS), pp. 141649-141671, Dec. 2025 (Spotlight).",
-      "links": []
+      "links": [],
+      "code": "https://github.com/hanna-xu/Deno-IF",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
       "citation": "Hebaixu Wang, Jing Zhang, Haonan Guo, Di Wang, Jiayi Ma*, and Bo Du. \"DGSolver: Diffusion Generalist Solver with Universal Posterior Sampling for Image Restoration\", in Advances in Neural Information Processing Systems (NeurIPS), pp. 168795-168836, Dec. 2025.",
       "links": [],
       "paper": "http://www.proceedings.com/085713-5624.html",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/MiliLab/DGSolver",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
       "citation": "Lei Cao, Hao Zhang, Chunyu Li, and Jiayi Ma*. \"Projection-Manifold Regularized Latent Diffusion for Robust General Image Fusion\", in Advances in Neural Information Processing Systems (NeurIPS), pp. 83972-84003, Dec. 2025.",
       "links": [],
       "paper": "http://www.proceedings.com/085713-2814.html",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/Leiii-Cao/PDFuse",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
       "citation": "Shihua Zhang, Zizhuo Li, and Jiayi Ma*. \"DeMatch++: Two-View Correspondence Learning via Deep Motion Field Decomposition and Respective Local-Context Aggregation\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(12), pp. 11234-11251, Dec. 2025.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/11119297/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/SuhZhang/DeMatch",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
@@ -2775,9 +2803,9 @@
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253517307972",
       "paperSource": "crossref",
-      "citations": 2089,
       "code": "https://github.com/JorgeFCS/Image-fusion-GAN",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "citations": 2089
     },
     {
       "year": "2018",
