@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-08-11T07:41:49Z",
+  "syncedAt": "2026-08-11T13:47:27Z",
   "publications": [
     {
       "year": "2026",
@@ -27,15 +27,6 @@
       "citation": "Jie Hua, Zhongyuan Wang, Xin Tian, Jinsheng Xiao, Gang Wu, Tao Lu, and Jiayi Ma. \"Robust Information Feature Pyramid Network for Low-Visible Object Detection\", IEEE/CAA Journal of Automatica Sinica, In Press.",
       "links": [],
       "paperChecked": true
-    },
-    {
-      "year": "2026",
-      "citation": "Hao Zhang, Meiqi Gong, Douyu Wu, and Jiayi Ma*. \"DPAFuse: A dual-space probabilistic adversarial image fusion framework with robust coding embedding\", Fundamental Research, In Press.",
-      "links": [],
-      "paper": "https://linkinghub.elsevier.com/retrieve/pii/S2667325826002463",
-      "paperSource": "crossref",
-      "code": "https://github.com/HaoZhang1018/DPAFuse",
-      "codeSource": "github-discovery"
     },
     {
       "year": "2026",
@@ -109,6 +100,15 @@
       "code": "https://github.com/jianfeng0369/CMVF",
       "codeSource": "github-discovery",
       "paperChecked": true
+    },
+    {
+      "year": "2026",
+      "citation": "Hao Zhang, Meiqi Gong, Douyu Wu, and Jiayi Ma*. \"DPAFuse: A dual-space probabilistic adversarial image fusion framework with robust coding embedding\", Fundamental Research, 6(4), pp. 2587-2601, Jul. 2026.",
+      "links": [],
+      "paper": "https://linkinghub.elsevier.com/retrieve/pii/S2667325826002463",
+      "paperSource": "crossref",
+      "code": "https://github.com/HaoZhang1018/DPAFuse",
+      "codeSource": "github-discovery"
     },
     {
       "year": "2026",
@@ -2007,8 +2007,8 @@
       "citation": "Han Xu, Jiayi Ma*, Junjun Jiang, Xiaojie Guo, and Haibin Ling. \"U2Fusion: A Unified Unsupervised Image Fusion Network\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(1), pp. 502-518, Jan. 2022.",
       "links": [],
       "code": "https://github.com/hanna-xu/U2Fusion",
-      "citations": 2623,
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "citations": 2623
     },
     {
       "year": "2021",
@@ -2612,8 +2612,8 @@
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9009484/",
       "paperSource": "crossref",
-      "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "code": "https://github.com/psychopa4/PFNL",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2019",
@@ -2660,21 +2660,25 @@
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253518301143",
       "paperSource": "crossref",
-      "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page",
+      "code": "https://github.com/jiayi-ma/FusionGAN",
+      "codeSource": "github-title-search",
       "citations": 2634
     },
     {
       "year": "2019",
       "citation": "Erting Pan, Yong Ma, Xiaoguang Mei, Xiaobing Dai, Fan Fan, Xin Tian, and Jiayi Ma. \"Spectral-spatial classification of hyperspectral image based on a joint attention network\", in Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS), pp. 413-416, Jul. 2019 (Oral).",
-      "links": []
+      "links": [],
+      "code": "https://github.com/JLJRF/ESSN",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2019",
       "citation": "Erting Pan, Yong Ma, Xiaobing Dai, Fan Fan, Jun Huang, Xiaoguang Mei, and Jiayi Ma. \"GRU with Spatial Prior for Hyperspectral Image Classification\", in Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS), pp. 967-970, Jul. 2019 (Oral).",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/8898566/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/mahmad00/Multiclass-AL-HSIC-using-ELM-SVM-KNN-LORSAL",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2019",
@@ -2689,8 +2693,8 @@
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/8954326/",
       "paperSource": "crossref",
-      "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "code": "https://github.com/ethanygao/NDDR-CNN",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2019",
@@ -2704,7 +2708,9 @@
       "citation": "Xinya Wang, Jiayi Ma*, and Junjun Jiang. \"Image Super-Resolution via Deep Aggregation Network\", in Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), pp. 1747-1751, May 2019 (Oral).",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/8683166/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/Francis0625/Omni-SR",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2019",
@@ -2712,8 +2718,8 @@
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/8579237/",
       "paperSource": "crossref",
-      "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "code": "https://github.com/psychopa4/MMCNN",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2019",
@@ -2727,27 +2733,31 @@
       "citation": "Jiayi Ma, Ji Zhao, Junjun Jiang, Huabing Zhou, and Xiaojie Guo. \"Locality Preserving Matching\", International Journal of Computer Vision, 127(5), pp. 512-531, May 2019.",
       "links": [],
       "code": "https://github.com/Jiawyang/LocalityPreservingMatching",
-      "citations": 716,
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "citations": 716
     },
     {
       "year": "2019",
       "citation": "Xiaoguang Mei, Erting Pan, Yong Ma, Xiaobing Dai, Jun Huang, Fan Fan, Qinglei Du, Hong Zheng, and Jiayi Ma. \"Spectral-Spatial Attention Networks for Hyperspectral Image Classification\", Remote Sensing, 11(8), p. 963, Apr. 2019.",
-      "links": []
+      "links": [],
+      "code": "https://github.com/EtPan/SSAN",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2019",
       "citation": "Jiahao Wang, Jun Chen, Huihui Xu, Shuaibin Zhang, Xiaoguang Mei, Jun Huang, and Jiayi Ma. \"Gaussian Field Estimator with Manifold Regularization for Retinal Image Registration\", Signal Processing, 157, pp. 225-235, Apr. 2019.",
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0165168418303955",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/JiahaoPlus/GFEMR",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2019",
       "citation": "Junjun Jiang, Jiayi Ma*, Zheng Wang, Chen Chen, and Xianming Liu. \"Hyperspectral Image Classification in the Presence of Noisy Labels\", IEEE Transactions on Geoscience and Remote Sensing, 57(2), pp. 851-865, Feb. 2019.",
       "links": [],
-      "code": "https://github.com/junjun-jiang?tab=repositories",
-      "codeSource": "original-publication-page",
+      "code": "https://github.com/junjun-jiang/RLPA",
+      "codeSource": "github-title-search",
       "paperChecked": true
     },
     {
@@ -2756,8 +2766,8 @@
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/8467342/",
       "paperSource": "crossref",
-      "code": "https://github.com/junjun-jiang?tab=repositories",
-      "codeSource": "original-publication-page"
+      "code": "https://github.com/junjun-jiang/RL",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2019",
@@ -2765,7 +2775,9 @@
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253517307972",
       "paperSource": "crossref",
-      "citations": 2089
+      "citations": 2089,
+      "code": "https://github.com/JorgeFCS/Image-fusion-GAN",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2018",
@@ -2779,7 +2791,9 @@
       "citation": "Tao Lu, Jiaming Wang, Huabing Zhou, Junjun Jiang, Jiayi Ma, and Zhongyuan Wang. \"Rectangular-Normalized Superpixel Entropy Index for Image Quality Assessment\", Entropy, 20(12), pp. 947, Dec. 2018.",
       "links": [],
       "paper": "https://www.mdpi.com/1099-4300/20/12/947",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/jiaming-wang/RSEI",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2018",
@@ -2971,8 +2985,8 @@
       "citation": "Jiayi Ma, Ji Zhao, Hanqi Guo, Junjun Jiang, Huabing Zhou, and Yuan Gao. \"Locality Preserving Matching\", in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI), pp. 4492-4498, Aug. 2017 (Oral).",
       "links": [],
       "code": "https://github.com/Jiawyang/LocalityPreservingMatching",
-      "citations": 716,
       "codeSource": "original-publication-page",
+      "citations": 716,
       "paperChecked": true
     },
     {
