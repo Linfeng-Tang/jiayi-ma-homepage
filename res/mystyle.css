@@ -1,0 +1,1302 @@
+/* ===== CSS Reset & Base ===== */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #16305c;
+    --primary-light: #2c5282;
+    --accent: #2563eb;
+    --accent-soft: rgba(37, 99, 235, 0.07);
+    --amber: #b45309;
+    --amber-soft: rgba(217, 119, 6, 0.09);
+    --text: #1f2937;
+    --text-light: #4b5563;
+    --muted: #6b7280;
+    --bg: #f4f6fa;
+    --white: #ffffff;
+    --border: #e5e9f0;
+    --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.05);
+    --shadow: 0 1px 3px rgba(16, 24, 40, 0.08);
+    --shadow-md: 0 4px 12px rgba(16, 24, 40, 0.08);
+    --shadow-lg: 0 8px 24px rgba(16, 24, 40, 0.12);
+    --radius: 12px;
+    --nav-h: 56px;
+    --font-serif: Georgia, Cambria, "Times New Roman", "Songti SC", "STSong", "SimSun", serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    main section.reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
+body {
+    font-family: var(--font-serif);
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--text);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+::selection {
+    background: rgba(37, 99, 235, 0.18);
+}
+
+:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* ===== Layout ===== */
+.container {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* ===== Navigation ===== */
+.topnav {
+    background: rgba(255, 255, 255, 0.88);
+    -webkit-backdrop-filter: blur(10px) saturate(1.5);
+    backdrop-filter: blur(10px) saturate(1.5);
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.topnav .container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    min-height: var(--nav-h);
+    padding: 0 24px;
+    max-width: 920px;
+}
+
+.topnav a {
+    color: var(--text-light);
+    padding: 7px 14px;
+    border-radius: 8px;
+    border-bottom: none;
+    font-family: var(--font-sans);
+    font-size: 13.5px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    transition: color 0.2s, background 0.2s;
+}
+
+.topnav a:hover {
+    color: var(--primary);
+    background: rgba(22, 48, 92, 0.07);
+    border-bottom: none;
+}
+
+.topnav a.active {
+    color: var(--white);
+    background: var(--primary);
+}
+
+.topnav a.lang {
+    margin-left: auto;
+    border: 1px solid var(--border);
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12.5px;
+    color: var(--muted);
+}
+
+.topnav a.lang:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+    background: var(--white);
+}
+
+/* ===== Profile Section ===== */
+.profile-section {
+    margin-top: 24px;
+    background: linear-gradient(135deg, #ffffff 0%, #edf3fc 100%);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 30px 32px;
+    box-shadow: var(--shadow-md);
+}
+
+.profile-content {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.profile-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.profile-text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--primary);
+    margin: 0 0 8px 0;
+    font-family: var(--font-sans);
+}
+
+.profile-text h2 {
+    display: inline-block;
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--white);
+    background: var(--primary);
+    padding: 3px 14px;
+    border-radius: 999px;
+    margin: 0 0 18px 0;
+}
+
+.affiliation, .contact, .research-interests {
+    margin-bottom: 14px;
+}
+
+.affiliation p, .contact p {
+    margin: 0 0 3px 0;
+    font-size: 14px;
+    color: var(--text-light);
+    overflow-wrap: anywhere;
+}
+
+.research-interests p {
+    margin: 0;
+    font-size: 14px;
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 10px 14px;
+}
+
+/* Google Scholar stats in the profile section */
+.scholar-stats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+    font-family: var(--font-sans);
+    font-size: 13px;
+}
+
+.scholar-stats .scholar-link {
+    font-weight: 600;
+    color: var(--primary);
+    margin-right: 2px;
+}
+
+.scholar-stat {
+    color: var(--text-light);
+    background: var(--amber-soft);
+    border: 1px solid rgba(217, 119, 6, 0.28);
+    border-radius: 999px;
+    padding: 1px 11px;
+    white-space: nowrap;
+}
+
+.scholar-stat strong {
+    color: var(--amber);
+}
+
+/* Icon buttons row in the profile contact block */
+.contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px !important;
+}
+
+.contact-icons a {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: 9px;
+    color: var(--text-light);
+    background: var(--white);
+    font-family: var(--font-sans);
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    box-shadow: var(--shadow-sm);
+    transition: color 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-icons a:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow);
+}
+
+.contact-icons svg {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.contact-icons svg.fill {
+    fill: currentColor;
+    stroke: none;
+}
+
+/* Profile link chips at the top of the publications page */
+.profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px !important;
+}
+
+.profile-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--white);
+    font-family: var(--font-sans);
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--text-light);
+    transition: color 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.profile-links a:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+}
+
+.profile-links svg {
+    width: 14px;
+    height: 14px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.profile-links svg.fill {
+    fill: currentColor;
+    stroke: none;
+}
+
+.profile-note {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+/* footnote legend under the profile chips on the publications page */
+.legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: 12.5px;
+    color: var(--muted);
+}
+
+.legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.legend sup {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    font-size: 10.5px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: var(--primary);
+    background: var(--accent-soft);
+}
+
+/* matching tint for the in-text author markers */
+ol sup {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* Yearly-citations bar chart (added by site.js from res/scholar.json) */
+.gs-graph {
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.gs-graph rect {
+    fill: var(--accent);
+    opacity: 0.75;
+}
+
+.gs-graph rect:last-of-type {
+    fill: var(--amber);
+    opacity: 1;
+}
+
+/* Venue tags on the influential-papers list (added by site.js) */
+.venue-tag {
+    font-family: var(--font-sans);
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 0 6px;
+    margin: 0 -1px;
+    color: var(--vc, #475569);
+    background: rgba(100, 116, 139, 0.10);
+    background: color-mix(in srgb, var(--vc, #475569) 12%, transparent);
+}
+
+.v-cvpr { --vc: #2563eb; }
+.v-iccv { --vc: #0d9488; }
+.v-eccv { --vc: #7c3aed; }
+.v-neurips { --vc: #16a34a; }
+.v-icml { --vc: #ea580c; }
+.v-iclr { --vc: #db2777; }
+.v-aaai { --vc: #dc2626; }
+.v-journal { --vc: #475569; }
+
+/* top journals (Nature/Cell portfolio, TPAMI, IJCV): gold with a hairline ring */
+.v-top {
+    --vc: #b45309;
+    box-shadow: inset 0 0 0 1px rgba(180, 83, 9, 0.35);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--vc) 35%, transparent);
+}
+
+/* Reveal-on-scroll animation (class added by site.js) */
+main section.reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+main section.reveal.in {
+    opacity: 1;
+    transform: none;
+}
+
+.profile-image {
+    flex-shrink: 0;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 4px solid var(--white);
+    box-shadow: var(--shadow-lg);
+}
+
+/* ===== Main Content ===== */
+main.container {
+    padding-top: 8px;
+    padding-bottom: 48px;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+main section:not(.profile-section) {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    padding: 24px 28px;
+}
+
+section h2 {
+    position: relative;
+    font-size: 1.18rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin: 0 0 16px 0;
+    padding: 0 0 10px 14px;
+    border-bottom: 1px solid var(--border);
+    font-family: var(--font-sans);
+}
+
+section h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    bottom: 14px;
+    width: 4px;
+    border-radius: 2px;
+    background: linear-gradient(180deg, var(--accent), var(--primary));
+}
+
+section h2 strong {
+    font-weight: 600;
+}
+
+section > p {
+    margin: -6px 0 14px;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+/* ===== Lists ===== */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    position: relative;
+    padding: 5px 10px 5px 22px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.65;
+    transition: background 0.15s;
+}
+
+ul li:hover {
+    background: var(--accent-soft);
+}
+
+ul li::before {
+    content: "•";
+    position: absolute;
+    left: 8px;
+    color: var(--accent);
+    font-weight: 700;
+}
+
+ul li p {
+    margin: 0;
+    display: inline;
+}
+
+ul li p + p {
+    display: block;
+    margin-top: 4px;
+}
+
+/* Ordered lists (publications page) */
+ol {
+    list-style: decimal;
+    padding-left: 2.4em;
+    margin: 0;
+}
+
+ol li {
+    margin-bottom: 12px;
+    padding: 2px 6px 2px 4px;
+    border-radius: 6px;
+    line-height: 1.65;
+    overflow-wrap: break-word;
+    transition: background-color 0.15s;
+}
+
+ol li:hover {
+    background: var(--accent-soft);
+}
+
+ol li::marker {
+    color: var(--primary-light);
+    font-family: var(--font-sans);
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+ol li p {
+    margin: 0;
+}
+
+/* Year headings inside the publication list */
+ol > p {
+    margin: 30px 0 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--primary);
+}
+
+ol > p:first-of-type {
+    margin-top: 16px;
+}
+
+/* Anchor offset so sticky bars don't cover jump targets */
+ol > p[id^="year-"] {
+    scroll-margin-top: calc(var(--nav-h) + 72px);
+}
+
+/* ===== Citation badge & resource chips (added by site.js) ===== */
+a.cite-badge,
+a.star-badge {
+    display: inline-block;
+    font-family: var(--font-sans);
+    font-size: 0.78em;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--amber);
+    background: var(--amber-soft);
+    border: 1px solid rgba(217, 119, 6, 0.28);
+    border-radius: 999px;
+    padding: 0 9px;
+    white-space: nowrap;
+    transition: color 0.2s, background 0.2s;
+}
+
+a.star-badge::before {
+    content: "★ ";
+}
+
+a.cite-badge::before {
+    content: "❝ ";
+}
+
+a.cite-badge strong,
+a.star-badge strong {
+    font-weight: 700;
+}
+
+a.cite-badge:hover,
+a.star-badge:hover {
+    color: var(--white);
+    background: var(--amber);
+    border-color: var(--amber);
+}
+
+/* GitHub star count inside a code chip (added by site.js):
+   turns the chip into a GitHub-style "code | ★ N" button */
+a.res-chip .chip-stars {
+    margin-left: 6px;
+    padding-left: 7px;
+    border-left: 1px solid rgba(37, 99, 235, 0.25);
+    color: var(--amber);
+    transition: color 0.2s, border-color 0.2s;
+}
+
+a.res-chip:hover .chip-stars {
+    color: var(--white);
+    border-left-color: rgba(255, 255, 255, 0.45);
+}
+
+a.res-chip {
+    display: inline-block;
+    font-family: var(--font-sans);
+    font-size: 0.78em;
+    font-weight: 600;
+    line-height: 1.55;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border: 1px solid rgba(37, 99, 235, 0.22);
+    border-radius: 6px;
+    padding: 0 7px;
+    margin: 0 0 0 1px;
+    white-space: nowrap;
+    transition: color 0.2s, background 0.2s;
+}
+
+a.res-chip:hover {
+    color: var(--white);
+    background: var(--accent);
+    border-color: var(--accent);
+}
+
+/* ===== Paper search box (added by site.js) ===== */
+.pubs-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 14px 0 4px;
+}
+
+.pubs-search svg {
+    position: absolute;
+    left: 11px;
+    width: 15px;
+    height: 15px;
+    fill: none;
+    stroke: var(--muted);
+    stroke-width: 2;
+    stroke-linecap: round;
+    pointer-events: none;
+}
+
+.pubs-search input {
+    flex: 1;
+    max-width: 420px;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    color: var(--text);
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 7px 12px 7px 34px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.pubs-search input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.pubs-search input::placeholder {
+    color: var(--muted);
+}
+
+.pubs-search-count {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    color: var(--muted);
+    white-space: nowrap;
+}
+
+.pubs-no-results {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin: 18px 0;
+}
+
+/* matched keywords while filtering the publication list */
+ol li mark {
+    background: var(--amber-soft);
+    color: var(--amber);
+    border-radius: 3px;
+    padding: 0 1px;
+}
+
+/* ===== Year quick navigation (added by site.js) ===== */
+.year-nav {
+    position: sticky;
+    top: calc(var(--nav-h) + 10px);
+    z-index: 50;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px 12px;
+    margin: 6px 0 22px;
+    background: rgba(255, 255, 255, 0.94);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: var(--shadow-sm);
+}
+
+.year-nav a {
+    font-family: var(--font-sans);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-light);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 2px 11px;
+    transition: color 0.2s, background 0.2s, border-color 0.2s;
+}
+
+.year-nav a:hover {
+    color: var(--white);
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+/* scrollspy: the year currently in view (class added by site.js) */
+.year-nav a.active {
+    color: var(--white);
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+/* ===== Links ===== */
+a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+a:hover {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
+}
+
+/* Author-mark superscripts (# student, * corresponding) */
+li sup {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+/* ===== Text Widget (pubs.htm / group pages) ===== */
+.sys_txt {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 32px 36px;
+    box-shadow: var(--shadow);
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.sys_txt > img {
+    float: left;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 24px 16px 0;
+    box-shadow: var(--shadow-lg);
+}
+
+.sys_txt::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sys_txt p {
+    margin: 0 0 12px 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.sys_txt p:last-child {
+    margin-bottom: 0;
+}
+
+/* Section titles inside the text widget ("Major Journal & Conference Papers" etc.) */
+.sys_txt > p > b,
+.sys_txt > div > p > b {
+    display: inline-block;
+    font-family: var(--font-sans);
+    font-size: 1.12rem;
+    color: var(--primary);
+}
+
+.sys_txt > p:has(> b) {
+    margin-top: 30px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+}
+
+.sys_txt > p:first-child:has(> b) {
+    margin-top: 0;
+}
+
+.sys_txt b {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* Group-page subsection headings ("Faculty Members" etc.) */
+.sys_txt h2 {
+    position: relative;
+    font-family: var(--font-sans);
+    font-size: 1.18rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin: 34px 0 18px;
+    padding: 0 0 10px 14px;
+    border-bottom: 1px solid var(--border);
+}
+
+.sys_txt h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    bottom: 14px;
+    width: 4px;
+    border-radius: 2px;
+    background: linear-gradient(180deg, var(--accent), var(--primary));
+}
+
+.sys_txt h2:first-child {
+    margin-top: 0;
+}
+
+/* ===== Member Cards (group pages) ===== */
+.members-section {
+    margin: 8px 0 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.members-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.member-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    width: 240px;
+    padding: 22px 16px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+}
+
+.member-photo {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    object-fit: cover;
+    background: #f0f0f0;
+    box-shadow: 0 0 0 3px var(--white), 0 0 0 4px var(--border);
+    user-select: none;
+    transition: transform 0.25s ease;
+}
+
+.member-card:hover .member-photo {
+    transform: scale(1.06);
+}
+
+.member-name {
+    font-family: var(--font-sans);
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: var(--text);
+    text-align: center;
+    margin-bottom: 6px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+.member-desc {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    color: var(--text-light);
+    text-align: center;
+    line-height: 1.55;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+.member-link {
+    margin-top: auto;
+    padding-top: 12px;
+}
+
+.member-link a {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--accent);
+    border-bottom: none;
+}
+
+.member-link a:hover {
+    color: var(--primary);
+    border-bottom: 1px solid var(--primary);
+}
+
+/* ===== Footer ===== */
+.bottombar {
+    text-align: center;
+    padding: 26px 0;
+    color: var(--muted);
+    font-family: var(--font-sans);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    border-top: 1px solid var(--border);
+    background: var(--white);
+}
+
+/* ===== Sup/Sub ===== */
+sup, sub {
+    font-size: 0.75em;
+    line-height: 0;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 720px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .profile-section {
+        padding: 24px 20px;
+    }
+
+    .profile-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .scholar-stats {
+        justify-content: center;
+    }
+
+    .contact-icons {
+        justify-content: center;
+    }
+
+    .profile-text h1 {
+        font-size: 1.6rem;
+    }
+
+    .profile-image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    main section:not(.profile-section) {
+        padding: 18px 20px;
+    }
+
+    .sys_txt {
+        padding: 22px 20px;
+    }
+
+    .sys_txt > img {
+        float: none;
+        display: block;
+        margin: 0 auto 16px;
+        width: 100px;
+        height: 100px;
+    }
+
+    ol {
+        padding-left: 2em;
+    }
+
+    .year-nav {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .member-card {
+        width: calc(50% - 9px);
+        min-width: 170px;
+    }
+}
+
+@media (max-width: 480px) {
+    .topnav .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 8px 16px;
+    }
+
+    .topnav a.lang {
+        margin-left: 0;
+    }
+
+    .member-card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+/* ===== Back-to-top button (added by site.js on long pages) ===== */
+.back-to-top {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 90;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    background: var(--white);
+    color: var(--text-light);
+    box-shadow: var(--shadow-md);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px);
+    transition: opacity 0.25s, transform 0.25s, visibility 0.25s,
+                color 0.2s, border-color 0.2s;
+}
+
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+
+.back-to-top:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.back-to-top svg {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* ===== Dark mode (data-theme attribute; default follows system, toggle overrides) ===== */
+:root[data-theme="dark"] {
+    color-scheme: dark;
+    --primary: #7ea4f0;
+    --primary-light: #9db9f5;
+    --accent: #7ea4f0;
+    --accent-soft: rgba(126, 164, 240, 0.13);
+    --amber: #e5a558;
+    --amber-soft: rgba(229, 165, 88, 0.13);
+    --text: #e5e9f0;
+    --text-light: #b4bdc9;
+    --muted: #8b95a6;
+    --bg: #0e1319;
+    --white: #171e28;
+    --border: #2a3444;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.55);
+}
+
+[data-theme="dark"] .topnav {
+    background: rgba(14, 19, 25, 0.88);
+}
+
+[data-theme="dark"] .topnav a:hover {
+    background: rgba(126, 164, 240, 0.12);
+}
+
+[data-theme="dark"] .topnav a.active {
+    color: #0e1319;
+    background: var(--primary);
+}
+
+[data-theme="dark"] .profile-section {
+    background: linear-gradient(135deg, #1b2434 0%, #141b27 100%);
+}
+
+[data-theme="dark"] .profile-text h2 {
+    color: #0e1319;
+}
+
+[data-theme="dark"] .year-nav {
+    background: rgba(23, 30, 40, 0.94);
+}
+
+[data-theme="dark"] .year-nav a:hover {
+    color: #0e1319;
+}
+
+[data-theme="dark"] .year-nav a.active {
+    color: #0e1319;
+}
+
+[data-theme="dark"] a.cite-badge,
+[data-theme="dark"] a.star-badge {
+    border-color: rgba(229, 165, 88, 0.35);
+}
+
+[data-theme="dark"] a.cite-badge:hover,
+[data-theme="dark"] a.star-badge:hover {
+    color: #0e1319;
+}
+
+[data-theme="dark"] a.res-chip {
+    border-color: rgba(126, 164, 240, 0.3);
+}
+
+[data-theme="dark"] a.res-chip .chip-stars {
+    border-left-color: rgba(126, 164, 240, 0.3);
+}
+
+[data-theme="dark"] a.res-chip:hover .chip-stars {
+    color: #0e1319;
+    border-left-color: rgba(14, 19, 25, 0.4);
+}
+
+[data-theme="dark"] a.res-chip:hover {
+    color: #0e1319;
+}
+
+[data-theme="dark"] .v-cvpr { --vc: #7ea4f0; }
+[data-theme="dark"] .v-iccv { --vc: #2dd4bf; }
+[data-theme="dark"] .v-eccv { --vc: #a78bfa; }
+[data-theme="dark"] .v-neurips { --vc: #4ade80; }
+[data-theme="dark"] .v-icml { --vc: #fb923c; }
+[data-theme="dark"] .v-iclr { --vc: #f472b6; }
+[data-theme="dark"] .v-aaai { --vc: #f87171; }
+[data-theme="dark"] .v-journal { --vc: #94a3b8; }
+
+[data-theme="dark"] .v-top {
+    --vc: #e5a558;
+    box-shadow: inset 0 0 0 1px rgba(229, 165, 88, 0.4);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--vc) 40%, transparent);
+}
+
+/* ===== Theme toggle button ===== */
+.theme-toggle {
+    margin-left: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.theme-toggle:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+    background: var(--accent-soft);
+}
+
+.theme-toggle svg {
+    width: 15px;
+    height: 15px;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.theme-toggle .icon-sun {
+    display: none;
+}
+
+:root[data-theme="dark"] .theme-toggle .icon-sun {
+    display: block;
+}
+
+:root[data-theme="dark"] .theme-toggle .icon-moon {
+    display: none;
+}
+
+/* ===== Print ===== */
+@media print {
+    :root {
+        --primary: #16305c;
+        --primary-light: #2c5282;
+        --accent: #2563eb;
+        --amber: #b45309;
+        --text: #1f2937;
+        --text-light: #4b5563;
+        --muted: #6b7280;
+        --bg: #ffffff;
+        --white: #ffffff;
+        --border: #e5e9f0;
+    }
+
+    body {
+        background: white;
+    }
+
+    .topnav, .bottombar, .year-nav, .back-to-top, .pubs-search {
+        display: none;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .sys_txt,
+    main section:not(.profile-section),
+    .profile-section {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+    }
+
+    a.cite-badge, a.star-badge, a.res-chip {
+        border: none;
+        padding: 0;
+        color: var(--accent);
+        background: none;
+    }
+}
+
+/* ===== Jiayi Ma publication data integration ===== */
+.jiayi-home { padding-top: 24px; padding-bottom: 48px; }
+.jiayi-home .profile-text h1 span { font-weight: 500; color: var(--text-light); }
+.jiayi-home .contact { margin-top: 16px; font-size: 14px; }
+.jiayi-home .contact a { color: var(--primary); }
+.jiayi-publications { padding-top: 24px; padding-bottom: 48px; }
+.jiayi-publications > section { margin-bottom: 0; }
+.pubs-search { display: flex; align-items: center; gap: 10px; margin: 0 0 12px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 9px; background: var(--accent-soft); font-family: var(--font-sans); }
+.pubs-search label { flex: 0 0 auto; color: var(--text-light); font-size: 12.5px; font-weight: 600; }
+.pubs-search input { min-width: 0; width: 100%; border: 1px solid var(--border); border-radius: 6px; padding: 7px 9px; color: var(--text); background: var(--white); font: 13px var(--font-sans); }
+.publication-year { margin: 0; padding: 0; box-shadow: none; border: 0; background: transparent; }
+.publication-year h3 { display: flex; align-items: baseline; justify-content: space-between; margin: 28px 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--border); color: var(--primary); font: 700 .95rem var(--font-sans); letter-spacing: .03em; }
+.publication-year h3 span { color: var(--muted); font-size: .76rem; font-weight: 500; letter-spacing: 0; }
+.publication-year ol { padding-left: 2.4em; }
+.publication-year li { margin-bottom: 13px; padding-bottom: 11px; border-bottom: 1px solid rgba(229, 233, 240, .8); }
+.paper-actions { display: flex !important; flex-wrap: wrap; gap: 7px; margin-top: 7px !important; }
+.paper-actions .res-chip { margin: 0; }
+.paper-actions .cite-badge { border-radius: 999px; }
+@media (max-width: 600px) { .pubs-search { align-items: stretch; flex-direction: column; } .publication-year h3 { margin-top: 22px; } }
