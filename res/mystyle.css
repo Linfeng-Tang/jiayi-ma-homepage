@@ -1285,7 +1285,7 @@ sup, sub {
 .jiayi-home { padding-top: 24px; padding-bottom: 48px; }
 .jiayi-home .profile-content { align-items: center; }
 .jiayi-home .profile-text h1 span { font-weight: 500; color: var(--text-light); }
-.jm-profile-mark { display: flex; align-items: center; justify-content: center; width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(145deg, #234d88, #10284e); color: #fff; font-family: var(--font-serif); font-size: 4.35rem; font-weight: 600; letter-spacing: -.08em; box-shadow: 0 12px 28px rgba(22, 48, 92, .23); }
+.jiayi-home .profile-image img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; object-position: center top; border: 4px solid var(--white); box-shadow: 0 12px 28px rgba(22, 48, 92, .23); }
 .jiayi-home .contact { margin-top: 16px; font-size: 14px; }
 .jiayi-home .contact a { color: var(--primary); }
 .home-page .students-section { display: none; }
@@ -1343,5 +1343,5 @@ a.cite-badge::before { content: none; }
 .paper-actions .res-chip { margin: 0; }
 .paper-actions .cite-badge { border-radius: 999px; }
 @media (max-width: 600px) { .pubs-search { align-items: stretch; flex-direction: column; } .publication-year h3 { margin-top: 22px; } }
-@media (max-width: 760px) { .jm-profile-mark { width: 150px; height: 150px; font-size: 3.25rem; } .student-list li, .student-list.compact li { grid-template-columns: 90px 1fr; } .student-list em, .student-list b { grid-column: 2; } }
+@media (max-width: 760px) { .jiayi-home .profile-image img { width: 150px; height: 150px; } .student-list li, .student-list.compact li { grid-template-columns: 90px 1fr; } .student-list em, .student-list b { grid-column: 2; } }
 @media (max-width: 520px) { .mentorship-summary { grid-template-columns: 1fr; } .honors-list li { grid-template-columns: 1fr; gap: 2px; } .student-list li, .student-list.compact li { grid-template-columns: 1fr; gap: 3px; } .student-list em, .student-list b { grid-column: auto; } }
