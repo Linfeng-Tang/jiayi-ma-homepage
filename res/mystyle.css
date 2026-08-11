@@ -1283,7 +1283,9 @@ sup, sub {
 
 /* ===== Jiayi Ma publication data integration ===== */
 .jiayi-home { padding-top: 24px; padding-bottom: 48px; }
+.jiayi-home .profile-content { align-items: center; }
 .jiayi-home .profile-text h1 span { font-weight: 500; color: var(--text-light); }
+.jm-profile-mark { display: flex; align-items: center; justify-content: center; width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(145deg, #234d88, #10284e); color: #fff; font-family: var(--font-serif); font-size: 4.35rem; font-weight: 600; letter-spacing: -.08em; box-shadow: 0 12px 28px rgba(22, 48, 92, .23); }
 .jiayi-home .contact { margin-top: 16px; font-size: 14px; }
 .jiayi-home .contact a { color: var(--primary); }
 .jiayi-publications { padding-top: 24px; padding-bottom: 48px; }
@@ -1300,3 +1302,4 @@ sup, sub {
 .paper-actions .res-chip { margin: 0; }
 .paper-actions .cite-badge { border-radius: 999px; }
 @media (max-width: 600px) { .pubs-search { align-items: stretch; flex-direction: column; } .publication-year h3 { margin-top: 22px; } }
+@media (max-width: 760px) { .jm-profile-mark { width: 150px; height: 150px; font-size: 3.25rem; } }
