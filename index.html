@@ -1,59 +1,101 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <script>
+    (function () {
+      var theme = null;
+      try { theme = localStorage.getItem('theme'); } catch (e) {}
+      if (theme !== 'light' && theme !== 'dark') {
+        theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Jiayi Ma, Professor at Wuhan University. Research in computer vision, image matching, and information fusion.">
+  <meta name="keywords" content="Jiayi Ma, Wuhan University, computer vision, image registration, image fusion, image enhancement">
   <title>Jiayi Ma | Professor at Wuhan University</title>
+  <link rel="icon" type="image/png" href="res/logo.png">
   <link rel="stylesheet" href="res/mystyle.css">
+  <script src="res/site.js" defer></script>
   <script src="res/selected-publications.js" defer></script>
 </head>
 <body>
-  <nav class="topnav" aria-label="Main navigation">
+  <nav class="topnav" role="navigation" aria-label="Main navigation">
     <div class="container">
       <a class="active" href="index.htm" aria-current="page">HOME</a>
-      <a href="pubs.htm">PUBLICATIONS</a>
-      <a href="https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor" target="_blank" rel="noreferrer">PROFILE</a>
+      <a href="pubs.htm">PUBLICATION</a>
+      <a href="#research">RESEARCH</a>
+      <a class="lang" href="https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor" target="_blank" rel="noreferrer">PROFILE</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg>
+      </button>
     </div>
   </nav>
-  <main class="container jiayi-home">
-    <section class="profile-section">
+
+  <main class="container jiayi-home" role="main">
+    <section class="profile-section" aria-labelledby="profile-heading">
       <div class="profile-content">
         <div class="profile-text">
-          <h1>Jiayi Ma <span lang="zh">马佳义</span></h1>
-          <h2>Professor · Wuhan University</h2>
-          <p class="affiliation">Electronic Information School, Wuhan University, Wuhan, China</p>
-          <p class="research-interests">Computer vision · Image matching and registration · Information fusion · Image enhancement · Machine learning</p>
-          <p class="contact">Email: <a href="mailto:jiayima@whu.edu.cn">jiayima@whu.edu.cn</a> · <a href="mailto:jyma2010@gmail.com">jyma2010@gmail.com</a></p>
-          <p class="contact-icons">
-            <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&amp;hl=en" target="_blank" rel="noreferrer" title="Google Scholar">GS</a>
-            <a href="pubs.htm" title="Publications">PUB</a>
-            <a href="https://github.com/jiayi-ma" target="_blank" rel="noreferrer" title="GitHub">GH</a>
-          </p>
+          <h1 id="profile-heading">Jiayi Ma <span lang="zh">(马佳义)</span></h1>
+          <h2>Professor</h2>
+          <div class="affiliation">
+            <p>Electronic Information School</p>
+            <p><a href="https://www.whu.edu.cn/" target="_blank" rel="noreferrer">Wuhan University</a></p>
+            <p>Wuhan, China</p>
+          </div>
+          <div class="contact">
+            <p>Email: <a href="mailto:jiayima@whu.edu.cn">jiayima@whu.edu.cn</a> &middot; <a href="mailto:jyma2010@gmail.com">jyma2010@gmail.com</a></p>
+            <p class="contact-icons">
+              <a href="https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor" target="_blank" rel="noreferrer" title="Faculty profile" aria-label="Faculty profile"><svg viewBox="0 0 24 24"><path d="M3 9.5 12 4l9 5.5"/><path d="M5.5 9.5V18M18.5 9.5V18M9.5 9.5V18M14.5 9.5V18"/><path d="M3 18h18"/></svg></a>
+              <a href="https://scholar.google.com/citations?user=73trMQkAAAAJ&amp;hl=en" target="_blank" rel="noreferrer" title="Google Scholar" aria-label="Google Scholar"><svg viewBox="0 0 24 24"><path d="M2.5 9.5 12 5l9.5 4.5L12 14z"/><path d="M6.5 11.7V16c0 1.4 2.5 2.6 5.5 2.6s5.5-1.2 5.5-2.6v-4.3"/><path d="M21.5 9.5V15"/></svg></a>
+              <a class="mono" href="pubs.htm" title="Publications" aria-label="Publications">PUB</a>
+              <a href="https://github.com/jiayi-ma" target="_blank" rel="noreferrer" title="GitHub" aria-label="GitHub"><svg class="fill" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 18 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+            </p>
+          </div>
+          <div class="scholar-stats">
+            <a class="scholar-link" href="https://scholar.google.com/citations?user=73trMQkAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+            <span class="scholar-stat">Publications <strong id="publication-total">500+</strong></span>
+            <span class="scholar-stat">Updated <strong>Daily</strong></span>
+          </div>
+          <div class="research-interests">
+            <p>Research interests: <strong>computer vision, image matching and registration, information fusion, image enhancement, and machine learning.</strong></p>
+          </div>
         </div>
+        <div class="profile-image jm-profile-mark" aria-label="Jiayi Ma initials">JM</div>
       </div>
     </section>
-    <section>
-      <h2>Biography</h2>
-      <p>Dr. Jiayi Ma is a Full Professor with the Electronic Information School, Wuhan University. His research interests include image matching and registration, information fusion, low-level vision, and learning-based visual perception.</p>
+
+    <section aria-labelledby="bio-heading">
+      <h2 id="bio-heading"><strong>Short Bio</strong></h2>
+      <p>Dr. Jiayi Ma is a Full Professor with the Electronic Information School, Wuhan University. His research focuses on image matching and registration, information fusion, low-level vision, and learning-based visual perception.</p>
       <p>He received the B.S. degree in Information and Computing Science and the Ph.D. degree in Control Science and Engineering from Huazhong University of Science and Technology in 2008 and 2014, respectively.</p>
     </section>
-    <section>
-      <h2>Research</h2>
+
+    <section id="research" aria-labelledby="research-heading">
+      <h2 id="research-heading"><strong>Research Interests</strong></h2>
       <ul>
         <li>Image matching, point-set registration, and correspondence learning.</li>
         <li>Multi-modal image fusion and semantic-aware visual perception.</li>
         <li>Image enhancement, remote sensing, and robust machine learning.</li>
       </ul>
     </section>
-    <section>
-      <h2>Academic Service</h2>
-      <p>Co Editor-in-Chief of <em>Information Fusion</em> and <em>Chinese Journal of Information Fusion</em>; Associate Editor and editorial-board member of several journals in computer vision and information fusion.</p>
+
+    <section aria-labelledby="activities-heading">
+      <h2 id="activities-heading"><strong>Academic Activities</strong></h2>
+      <ul>
+        <li><p><strong>Co-Editor-in-Chief</strong>: <em>Information Fusion</em> and <em>Chinese Journal of Information Fusion</em>.</p></li>
+        <li><p><strong>Editorial service</strong>: Associate Editor and editorial-board member for journals in computer vision and information fusion.</p></li>
+        <li><p><strong>Conference service</strong>: Reviewer and program-committee service for leading venues in computer vision, pattern recognition, and information fusion.</p></li>
+      </ul>
     </section>
+
     <section class="selected-publications" aria-labelledby="selected-publications-heading">
-      <h2 id="selected-publications-heading">Selected Publications</h2>
-      <p class="profile-note">A selected list of representative papers. See <a href="pubs.htm">all publications</a> for the complete record.</p>
-      <ol id="selected-publications-list" aria-live="polite"><li>Loading selected publications…</li></ol>
+      <h2 id="selected-publications-heading"><strong>Selected Publications</strong></h2>
+      <p><sup>*</sup> corresponding author. A selected list of representative papers; see <a href="pubs.htm">all publications</a> for the complete, daily refreshed record.</p>
+      <ol id="selected-publications-list" aria-live="polite"><li>Loading selected publications...</li></ol>
     </section>
   </main>
 </body>
