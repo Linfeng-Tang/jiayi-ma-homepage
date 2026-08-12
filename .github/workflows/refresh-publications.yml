@@ -17,6 +17,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Synchronise and enrich publication data
+        id: refresh_data
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
@@ -33,3 +35,8 @@ jobs:
           git add res/publications.json res/scholar.json res/profile.json
           git diff --cached --quiet || git commit -m "Refresh Google Sites and Scholar data"
           git push
+      - name: Mark failed Scholar refresh
+        if: steps.refresh_data.outcome == 'failure'
+        run: |
+          echo "Google Scholar rejected this scheduled request; the site retains its last successful citation snapshot." >&2
+          exit 1

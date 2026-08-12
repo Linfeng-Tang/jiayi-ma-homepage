@@ -69,10 +69,10 @@ def main() -> int:
             source = response.read().decode("utf-8", errors="replace")
     except Exception as error:
         print(f"Scholar unavailable; preserving previous citation counts ({error}).")
-        return 0
+        return 2
     if "captcha" in source.lower() or "not a robot" in source.lower():
         print("Scholar challenged this run; preserving previous citation counts.")
-        return 0
+        return 2
 
     # The profile's public listing has rows with gsc_a_at (title) and gsc_a_ac
     # (citation count). This intentionally updates only exact-normalised matches.
@@ -89,7 +89,7 @@ def main() -> int:
             counts[normalise(title)] = int(count)
     if not counts:
         print("Scholar response contained no publication counts; preserving previous values.")
-        return 0
+        return 2
 
     content = load_json(path)
     if not content.get("publications"):
