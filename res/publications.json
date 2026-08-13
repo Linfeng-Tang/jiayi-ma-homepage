@@ -1,6 +1,6 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
-  "syncedAt": "2026-08-13T13:52:59Z",
+  "syncedAt": "2026-08-13T19:30:09Z",
   "publications": [
     {
       "year": "2026",
@@ -263,7 +263,9 @@
       "year": "2026",
       "citation": "Jun Chen, Wei Yu, Xin Tian, Jun Huang, and Jiayi Ma*. \"MDbFusion++: A Visible and Infrared Image Fusion Framework Capable for Motion Deblurring\", IEEE Transactions on Image Processing, 35, pp. 3647-3661, Apr. 2026.",
       "links": [],
-      "paperChecked": true
+      "paperChecked": true,
+      "paper": "https://ieeexplore.ieee.org/document/10647563/",
+      "paperSource": "crossref"
     },
     {
       "year": "2026",
@@ -1436,7 +1438,9 @@
       "citation": "Jiayi Ma, Yang Wang, Aoxiang Fan, Guobao Xiao, and Riqing Chen. \"Correspondence Attention Transformer: A Context-sensitive Network for Two-view Correspondence Learning\", IEEE Transactions on Multimedia, 25, pp. 3509-3524, Sept. 2023.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9741369/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/WangyangCharles1/CorresAttnTransformer",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2023",
@@ -1450,7 +1454,9 @@
       "citation": "Erting Pan, Yong Ma, Xiaoguang Mei, Fan Fan, Jun Huang, and Jiayi Ma. \"Progressive Hyperspectral Image Destriping with an Adaptive Frequencial Focus\", IEEE Transactions on Geoscience and Remote Sensing, 61, pp. 5517312, Aug. 2023.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/10189870/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/EtPan/PHID",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2023",
