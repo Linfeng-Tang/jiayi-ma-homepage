@@ -651,7 +651,8 @@
       "citation": "Xunpeng Yi, Han Xu, Hao Zhang, Linfeng Tang, and Jiayi Ma*. \"Diff-Retinex++: Retinex-Driven Reinforced Diffusion Model for Low-Light Image Enhancement\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(8), pp. 6823-6841, Aug. 2025.",
       "links": [],
       "code": "https://github.com/XunpengYi/Diff-Retinex",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true
     },
     {
       "year": "2025",
@@ -748,7 +749,8 @@
     {
       "year": "2025",
       "citation": "Yansheng Li, Yuning Wu, Gong Cheng, Chao Tao, Bo Dang, Yu Wang, Jiahao Zhang, Chuge Zhang, Yiting Liu, Xu Tang, Jiayi Ma*, and Yongjun Zhang*. \"MEET: A Million-Scale Dataset for Fine-Grained Geospatial Scene Classification with Zoom-Free Remote Sensing Imagery\", IEEE/CAA Journal of Automatica Sinica, 12(5), pp. 1004-1023, May 2025.",
-      "links": []
+      "links": [],
+      "esiHighlyCited": true
     },
     {
       "year": "2025",
@@ -835,7 +837,8 @@
     {
       "year": "2025",
       "citation": "Jiayang Li, Junjun Jiang, Pengwei Liang, Jiayi Ma, and Liqiang Nie. \"MaeFuse: Transferring Omni Features with Pretrained Masked Autoencoders for Infrared and Visible Image Fusion via Guided Training\", IEEE Transactions on Image Processing, 34, pp. 1340-1353, Feb. 2025.",
-      "links": []
+      "links": [],
+      "esiHighlyCited": true
     },
     {
       "year": "2025",
@@ -1048,7 +1051,8 @@
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253524002288",
       "paperSource": "crossref",
       "code": "https://github.com/XunpengYi/Diff-IF",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true
     },
     {
       "year": "2024",
@@ -1240,7 +1244,8 @@
       "citation": "Jun Chen, Liling Yang, Wei Liu, Xin Tian, and Jiayi Ma*. \"LENFusion: A Joint Low-Light Enhancement and Fusion Network for Nighttime Infrared and Visible Image Fusion\", IEEE Transactions on Instrumentation and Measurement, 73, pp. 5018715, Apr. 2024.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/10504357/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true
     },
     {
       "year": "2024",
@@ -1250,7 +1255,8 @@
     {
       "year": "2024",
       "citation": "Qing Ma, Junjun Jiang, Xianming Liu, and Jiayi Ma. \"Reciprocal Transformer for Hyperspectral and Multispectral Image Fusion\", Information Fusion, 104, pp. 102148, Apr. 2024.",
-      "links": []
+      "links": [],
+      "esiHighlyCited": true
     },
     {
       "year": "2024",
@@ -1466,7 +1472,9 @@
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253523001860",
       "paperSource": "crossref",
       "code": "https://github.com/Linfeng-Tang/PSFusion",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2023",
@@ -1503,7 +1511,8 @@
       "paper": "https://ieeexplore.ieee.org/document/10145843/",
       "paperSource": "crossref",
       "code": "https://github.com/hanna-xu/MURF",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true
     },
     {
       "year": "2023",
@@ -1542,7 +1551,8 @@
       "citation": "Yansheng Li, Te Shi, Yongjun Zhang, and Jiayi Ma. \"SPGAN-DA: Semantic-Preserved Generative Adversarial Network for Domain Adaptive Remote Sensing Image Semantic Segmentation\", IEEE Transactions on Geoscience and Remote Sensing, 61, pp. 5406717, Sept. 2023.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/10246312/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true
     },
     {
       "year": "2023",
@@ -1551,7 +1561,8 @@
       "paper": "https://ieeexplore.ieee.org/document/9741369/",
       "paperSource": "crossref",
       "code": "https://github.com/WangyangCharles1/CorresAttnTransformer",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true
     },
     {
       "year": "2023",
@@ -1737,7 +1748,9 @@
       "paper": "https://www.sciencedirect.com/science/article/pii/S156625352200210X?via%3Dihub",
       "paperSource": "verified-excel",
       "code": "https://github.com/Linfeng-Tang/DIVFusion",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2023",
@@ -1807,7 +1820,8 @@
       "citation": "Huabing Zhou, Wei Wu, Yanduo Zhang, Jiayi Ma, and Haibin Ling. \"Semantic-supervised Infrared and Visible Image Fusion via a Dual-discriminator Generative Adversarial Network\", IEEE Transactions on Multimedia, 25, pp. 635-648, Feb. 2023.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9623476/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true
     },
     {
       "year": "2023",
@@ -1853,7 +1867,9 @@
       "citation": "Junjun Jiang, Chenyang Wang, Xianming Liu, and Jiayi Ma. \"Deep Learning-based Face Super-resolution: A Survey\", ACM Computing Surveys, 55(1), pp. 13:1-13:36, Jan. 2023.",
       "links": [],
       "paper": "https://dl.acm.org/doi/10.1145/3485132",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2022",
@@ -1878,7 +1894,9 @@
       "paper": "https://ieeexplore.ieee.org/document/9970457/",
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma/SuperFusion",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2022",
@@ -2023,7 +2041,9 @@
       "paperSource": "crossref",
       "code": "https://github.com/Linfeng-Tang/SwinFusion",
       "codeSource": "verified-excel",
-      "citations": 1651
+      "citations": 1651,
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2022",
@@ -2033,7 +2053,9 @@
       "paperSource": "crossref",
       "code": "https://github.com/Linfeng-Tang/PIAFusion",
       "codeSource": "verified-excel",
-      "citations": 1326
+      "citations": 1326,
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2022",
@@ -2099,7 +2121,9 @@
       "paperSource": "verified-excel",
       "code": "https://github.com/Linfeng-Tang/SeAFusion",
       "codeSource": "verified-excel",
-      "citations": 1218
+      "citations": 1218,
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2022",
@@ -2163,7 +2187,8 @@
         }
       ],
       "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true
     },
     {
       "year": "2022",
@@ -2182,7 +2207,8 @@
       "paper": "https://doi.org/10.1016/j.cviu.2022.103407",
       "paperSource": "verified-excel",
       "code": "https://github.com/KN-Zhang/LAL",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true
     },
     {
       "year": "2022",
@@ -2194,7 +2220,8 @@
       "citation": "Zhenfen Shao, Gui Cheng, Jiayi Ma, Zhongyuan Wang, Jiaming Wang, and Deren Li. \"Real-time and Accurate UAV Pedestrian Detection for Social Distancing Monitoring in COVID-19 Pandemic\", IEEE Transactions on Multimedia, 24, pp. 2069-2083, Apr. 2022.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9417704/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true
     },
     {
       "year": "2022",
@@ -2231,7 +2258,8 @@
       "citation": "Xin Tian, Wei Zhang, Yuerong Chen, Zhongyuan Wang, and Jiayi Ma*. \"HyperFusion: A Computational Approach for Hyperspectral, Multispectral, and Panchromatic Image Fusion\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5518216, Feb. 2022.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9615043/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true
     },
     {
       "year": "2022",
@@ -2259,7 +2287,8 @@
       "citation": "Junjun Jiang, Jiayi Ma*, and Xianming Liu. \"Multilayer Spectral-Spatial Graphs for Label Noisy Robust Hyperspectral Image Classification\", IEEE Transactions on Neural Networks and Learning Systems, 33(2), pp. 839-852, Feb. 2022.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9237144/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true
     },
     {
       "year": "2022",
@@ -2285,7 +2314,8 @@
       "citation": "Ganghui Fan, Yong Ma, Xiaoguang Mei, Fan Fan, Jun Huang, and Jiayi Ma. \"Hyperspectral Anomaly Detection with Robust Graph Autoencoders\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5511314, Jan. 2022.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9494034/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true
     },
     {
       "year": "2022",
@@ -2302,19 +2332,22 @@
     {
       "year": "2022",
       "citation": "Xinya Wang, Jiayi Ma*, and Junjun Jiang. \"Hyperspectral Image Super-Resolution via Recurrent Feedback Embedding and Spatial-Spectral Consistency Regularization\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5503113, Jan. 2022.",
-      "links": []
+      "links": [],
+      "esiHighlyCited": true
     },
     {
       "year": "2022",
       "citation": "Chengli Peng, Kaining Zhang, Yong Ma, and Jiayi Ma*. \"Cross Fusion Net: A Fast Semantic Segmentation Network for Small-scale Semantic Information Capturing in Aerial Scenes\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5601313, Jan. 2022.",
       "links": [],
       "code": "https://github.com/pcl111/CF-Net",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true
     },
     {
       "year": "2022",
       "citation": "Xin Tian, Yuerong Chen, Changcai Yang, and Jiayi Ma*. \"Variational Pansharpening by Exploiting Cartoon-texture Similarities\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5400416, Jan. 2022.",
-      "links": []
+      "links": [],
+      "esiHighlyCited": true
     },
     {
       "year": "2022",
@@ -2334,7 +2367,9 @@
       "paperSource": "verified-excel",
       "code": "https://github.com/jiayi-ma/U2Fusion",
       "codeSource": "verified-excel",
-      "citations": 2634
+      "citations": 2634,
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2021",
@@ -2347,7 +2382,9 @@
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253521001342",
       "paperSource": "crossref",
-      "citations": 955
+      "citations": 955,
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2021",
@@ -2356,7 +2393,8 @@
       "paper": "https://www.sciencedirect.com/science/article/pii/S1566253521001275",
       "paperSource": "verified-excel",
       "code": "https://github.com/hanna-xu/EMFusion",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2384,7 +2422,8 @@
       "paper": "https://ieeexplore.ieee.org/document/9573457/",
       "paperSource": "crossref",
       "code": "https://github.com/yuanjiteng/GAN-FM",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2394,7 +2433,8 @@
       "paperSource": "crossref",
       "code": "https://github.com/HaoZhang1018/SDNet",
       "codeSource": "verified-excel",
-      "citations": 817
+      "citations": 817,
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2437,7 +2477,9 @@
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S156625352100035X",
       "paperSource": "crossref",
-      "citations": 634
+      "citations": 634,
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2021",
@@ -2465,7 +2507,8 @@
       "paper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9502544",
       "paperSource": "verified-excel",
       "code": "https://github.com/hanna-xu/CSF",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2474,7 +2517,8 @@
       "paper": "https://ieeexplore.ieee.org/document/9115873/",
       "paperSource": "crossref",
       "code": "https://github.com/FGH00292/Hyperspectral-anomaly-detection-via-FEBPAD",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2560,7 +2604,8 @@
       "paperSource": "crossref",
       "code": "https://github.com/Linfeng-Tang/STDFusionNet",
       "codeSource": "github-title-search",
-      "citations": 700
+      "citations": 700,
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2583,7 +2628,8 @@
       "paper": "https://ieeexplore.ieee.org/document/9200533/",
       "paperSource": "crossref",
       "code": "https://github.com/hanna-xu/SDPNet-for-pansharpening",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2600,7 +2646,8 @@
       "paperSource": "crossref",
       "code": "https://github.com/zhangyhuaee/KinD_plus",
       "codeSource": "github-title-search",
-      "citations": 1213
+      "citations": 1213,
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2625,7 +2672,8 @@
       "citation": "Yansheng Li, Jiayi Ma*, and Yongjun Zhang. \"Image retrieval from remote sensing big data: A Survey\", Information Fusion, 67, pp. 94-115, Mar. 2021.",
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253520303778",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2641,7 +2689,8 @@
       "paper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9345717",
       "paperSource": "verified-excel",
       "code": "https://github.com/hanna-xu/DRF",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2662,7 +2711,8 @@
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S092427162030352X",
       "paperSource": "crossref",
       "code": "https://github.com/HaoZhang1018/GTP-PNet",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2690,7 +2740,8 @@
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253520303572",
       "paperSource": "crossref",
       "code": "https://github.com/LeBoyal/MFF-GAN",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2699,7 +2750,8 @@
       "paper": "https://ieeexplore.ieee.org/document/9130049/",
       "paperSource": "crossref",
       "code": "https://github.com/StaRainJ/LAF",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2714,7 +2766,8 @@
       "paperSource": "crossref",
       "code": "https://github.com/HaoZhang1018/GANMcC",
       "codeSource": "verified-excel",
-      "citations": 894
+      "citations": 894,
+      "esiHighlyCited": true
     },
     {
       "year": "2021",
@@ -2722,7 +2775,9 @@
       "links": [],
       "paper": "https://link.springer.com/10.1007/s11263-020-01359-2",
       "paperSource": "crossref",
-      "citations": 1226
+      "citations": 1226,
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2020",
@@ -2778,7 +2833,8 @@
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253520302591",
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true
     },
     {
       "year": "2020",
@@ -2843,7 +2899,9 @@
       "paper": "https://ieeexplore.ieee.org/document/8752034/",
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2020",
@@ -2864,14 +2922,16 @@
       "paper": "https://ieeexplore.ieee.org/document/9112609/",
       "paperSource": "crossref",
       "code": "https://github.com/hanna-xu/MEF-GAN",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true
     },
     {
       "year": "2020",
       "citation": "Junjun Jiang, He Sun, Xianming Liu, and Jiayi Ma. \"Learning Spatial-Spectral Prior for Super-Resolution of Hyperspectral Imagery\", IEEE Transactions on Computational Imaging, 6, pp. 1082-1096, Jul. 2020.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9097432/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true
     },
     {
       "year": "2020",
@@ -2929,7 +2989,8 @@
       "paperSource": "crossref",
       "code": "https://github.com/hanna-xu/DDcGAN",
       "codeSource": "verified-excel",
-      "citations": 1520
+      "citations": 1520,
+      "esiHighlyCited": true
     },
     {
       "year": "2020",
@@ -2987,7 +3048,8 @@
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253519300314",
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true
     },
     {
       "year": "2020",
@@ -3001,7 +3063,8 @@
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0020025519308163",
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true
     },
     {
       "year": "2020",
@@ -3015,7 +3078,8 @@
       "paper": "https://ieeexplore.ieee.org/document/8812909/",
       "paperSource": "crossref",
       "code": "https://github.com/StaRainJ/RFM-SCAN",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "esiHighlyCited": true
     },
     {
       "year": "2020",
@@ -3029,7 +3093,8 @@
       "paper": "https://ieeexplore.ieee.org/document/8493598/",
       "paperSource": "crossref",
       "code": "https://github.com/junjun-jiang?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true
     },
     {
       "year": "2019",
@@ -3050,7 +3115,8 @@
       "paper": "https://ieeexplore.ieee.org/document/8510909/",
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma/MR-RPM",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true
     },
     {
       "year": "2019",
@@ -3120,7 +3186,8 @@
       "paper": "https://ieeexplore.ieee.org/document/8672170/",
       "paperSource": "crossref",
       "code": "https://github.com/StaRainJ/LMR",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true
     },
     {
       "year": "2019",
@@ -3135,7 +3202,9 @@
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma/FusionGAN",
       "codeSource": "github-title-search",
-      "citations": 2642
+      "citations": 2642,
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2019",
@@ -3202,7 +3271,8 @@
       "paper": "https://ieeexplore.ieee.org/document/8579237/",
       "paperSource": "crossref",
       "code": "https://github.com/psychopa4/MMCNN",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true
     },
     {
       "year": "2019",
@@ -3222,14 +3292,17 @@
       ],
       "code": "https://github.com/Jiawyang/LocalityPreservingMatching",
       "codeSource": "original-publication-page",
-      "citations": 716
+      "citations": 716,
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2019",
       "citation": "Xiaoguang Mei, Erting Pan, Yong Ma, Xiaobing Dai, Jun Huang, Fan Fan, Qinglei Du, Hong Zheng, and Jiayi Ma. \"Spectral-Spatial Attention Networks for Hyperspectral Image Classification\", Remote Sensing, 11(8), p. 963, Apr. 2019.",
       "links": [],
       "code": "https://github.com/EtPan/SSAN",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true
     },
     {
       "year": "2019",
@@ -3250,7 +3323,8 @@
         }
       ],
       "code": "https://github.com/junjun-jiang/RLPA",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true
     },
     {
       "year": "2019",
@@ -3274,7 +3348,9 @@
       "paperSource": "crossref",
       "code": "https://github.com/JorgeFCS/Image-fusion-GAN",
       "codeSource": "github-title-search",
-      "citations": 2093
+      "citations": 2093,
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2018",
@@ -3337,7 +3413,9 @@
       "paper": "https://ieeexplore.ieee.org/document/8340808/",
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2018",
@@ -3411,7 +3489,9 @@
       "paper": "http://ieeexplore.ieee.org/document/8067633/",
       "paperSource": "crossref",
       "code": "https://github.com/ushasi/CMIR-NET-A-deep-learning-based-model-for-cross-modal-retrieval-in-remote-sensing",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2018",
@@ -3441,7 +3521,8 @@
       "paper": "http://ieeexplore.ieee.org/document/7553522/",
       "paperSource": "crossref",
       "code": "https://github.com/junjun-jiang?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true
     },
     {
       "year": "2017",
@@ -3457,7 +3538,8 @@
       "citation": "Jiayi Ma, Junjun Jiang, Chengyin Liu, and Yansheng Li. \"Feature Guided Gaussian Mixture Model with Semi-Supervised EM and Local Geometric Constraint for Retinal Image Registration\", Information Sciences, 417, pp. 128-142, Nov. 2017.",
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0020025517308319",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true
     },
     {
       "year": "2017",
@@ -3561,7 +3643,8 @@
       "paper": "http://ieeexplore.ieee.org/document/7865903/",
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma/S3RC",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true
     },
     {
       "year": "2017",
@@ -3610,7 +3693,8 @@
       "paper": "http://ieeexplore.ieee.org/document/7547257/",
       "paperSource": "crossref",
       "code": "https://github.com/junjun-jiang?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true
     },
     {
       "year": "2017",
@@ -3624,7 +3708,8 @@
       "paper": "http://ieeexplore.ieee.org/document/7539698/",
       "paperSource": "crossref",
       "code": "https://github.com/junjun-jiang?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true
     },
     {
       "year": "2016",
@@ -3706,14 +3791,18 @@
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma/GTF",
       "codeSource": "github-title-search",
-      "citations": 1305
+      "citations": 1305,
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2016",
       "citation": "Junjun Jiang, Ruimin Hu, Zhongyuan Wang, Zhen Han, and Jiayi Ma. \"Facial Image Hallucination through Coupled-Layer Neighbor Embedding\", IEEE Transactions on Circuits and Systems for Video Technology, 26(9), pp. 1674-1684, Sept. 2016.",
       "links": [],
       "paper": "http://ieeexplore.ieee.org/document/7108003/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2016",
@@ -3828,7 +3917,9 @@
       "paper": "http://ieeexplore.ieee.org/document/7185406/",
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2015",
@@ -3851,7 +3942,9 @@
       "paper": "http://ieeexplore.ieee.org/document/7128687/",
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2015",
@@ -3916,7 +4009,9 @@
       ],
       "paper": "https://sites.google.com/site/jiayima2013/TSP2015.pdf?attredirects=0&d=1",
       "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2015",
@@ -3934,7 +4029,9 @@
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0031320314003471",
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma?tab=repositories",
-      "codeSource": "original-publication-page"
+      "codeSource": "original-publication-page",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2014",

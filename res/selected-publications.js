@@ -12,9 +12,14 @@
     if (paper.code) links.push({ label: 'Code', url: paper.code });
     if (Number(paper.citations) > 100) links.push({ label: `${Number(paper.citations).toLocaleString()} citations`, url: scholarProfile, citation: true });
     const seen = new Set();
-    return links.filter(link => link.url && !seen.has(link.url) && seen.add(link.url)).map(link =>
+    const actions = links.filter(link => link.url && !seen.has(link.url) && seen.add(link.url)).map(link =>
       `<a class="res-chip${link.citation ? ' cite-badge' : ''}" href="${escapeHTML(link.url)}" target="_blank" rel="noreferrer">${escapeHTML(link.label)}</a>`
     ).join('');
+    const esi = [
+      paper.esiHighlyCited && '<span class="esi-badge esi-high">ESI Highly Cited Paper</span>',
+      paper.esiHot && '<span class="esi-badge esi-hot">ESI Hot Paper</span>'
+    ].filter(Boolean).join('');
+    return actions + esi;
   }
 
   fetch('res/publications.json', { cache: 'no-store' }).then(response => response.ok ? response.json() : Promise.reject()).then(data => {

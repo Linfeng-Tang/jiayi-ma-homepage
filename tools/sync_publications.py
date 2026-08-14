@@ -188,7 +188,7 @@ def retain_verified_metadata(publications: list[dict], destination: Path) -> Non
         key = publication_key(item)
         if key:
             prior[key] = item
-    retained_fields = ("paper", "paperSource", "code", "codeSource", "citations")
+    retained_fields = ("paper", "paperSource", "code", "codeSource", "citations", "esiHighlyCited", "esiHot")
     for publication in publications:
         old = prior.get(publication_key(publication))
         if not old:
