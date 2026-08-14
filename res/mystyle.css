@@ -1342,9 +1342,11 @@ a.cite-badge::before { content: none; }
 .paper-actions { display: flex !important; flex-wrap: wrap; gap: 7px; margin-top: 7px !important; }
 .paper-actions .res-chip { margin: 0; }
 .paper-actions .cite-badge { border-radius: 999px; }
-.paper-actions .esi-badge { display: inline-block; padding: 0 7px; margin: 0 0 0 1px; border-radius: 6px; line-height: 1.55; cursor: default; }
-.esi-badge.esi-high, .esi-badge.esi-hot, .scholar-stat.esi-high, .scholar-stat.esi-hot { color: #0b6b4d; background: #e7f7ef; border-color: #9bd8b9; }
-[data-theme="dark"] .esi-badge.esi-high, [data-theme="dark"] .esi-badge.esi-hot, [data-theme="dark"] .scholar-stat.esi-high, [data-theme="dark"] .scholar-stat.esi-hot { color: #94e7bd; background: rgba(27, 118, 75, .24); border-color: rgba(148, 231, 189, .38); }
+.paper-actions .esi-badge { display: inline-block; padding: 0 6px; margin: 0 0 0 1px; border-radius: 6px; font-size: .88em; line-height: 1.45; cursor: default; }
+.esi-badge.esi-high, .scholar-stat.esi-high { color: #0b6b4d; background: #e7f7ef; border-color: #9bd8b9; }
+.esi-badge.esi-hot, .scholar-stat.esi-hot { color: #a84a0a; background: #fff0df; border-color: #f1be8b; }
+[data-theme="dark"] .esi-badge.esi-high, [data-theme="dark"] .scholar-stat.esi-high { color: #94e7bd; background: rgba(27, 118, 75, .24); border-color: rgba(148, 231, 189, .38); }
+[data-theme="dark"] .esi-badge.esi-hot, [data-theme="dark"] .scholar-stat.esi-hot { color: #ffc184; background: rgba(148, 76, 17, .25); border-color: rgba(255, 193, 132, .38); }
 @media (max-width: 600px) { .pubs-search { align-items: stretch; flex-direction: column; } .publication-year h3 { margin-top: 22px; } }
 @media (max-width: 760px) { .jiayi-home .profile-image img { width: 135px; height: auto; } .student-list li, .student-list.compact li { grid-template-columns: 90px 1fr; } .student-list em, .student-list b { grid-column: 2; } }
 @media (max-width: 520px) { .mentorship-summary { grid-template-columns: 1fr; } .honors-list li { grid-template-columns: 1fr; gap: 2px; } .student-list li, .student-list.compact li { grid-template-columns: 1fr; gap: 3px; } .student-list em, .student-list b { grid-column: auto; } }
