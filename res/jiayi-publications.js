@@ -18,8 +18,8 @@
       `<a class="res-chip${link.citations ? ' cite-badge' : ''}" href="${escapeHTML(link.url)}" target="_blank" rel="noreferrer">${escapeHTML(link.label)}</a>`
     ).join('');
     const esi = [
-      paper.esiHighlyCited && '<span class="esi-badge esi-high">ESI Highly Cited Paper</span>',
-      paper.esiHot && '<span class="esi-badge esi-hot">ESI Hot Paper</span>'
+      paper.esiHighlyCited && '<span class="res-chip esi-badge esi-high">ESI Highly Cited Paper</span>',
+      paper.esiHot && '<span class="res-chip esi-badge esi-hot">ESI Hot Paper</span>'
     ].filter(Boolean).join('');
     return actions + esi;
   }
