@@ -6,7 +6,7 @@
   const scholarProfile = 'https://scholar.google.com/citations?user=73trMQkAAAAJ&hl=en';
   const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const titleOf = citation => (citation.match(/"(.+?)"/) || [])[1] || citation;
-  const cleanCitation = citation => citation.replace(/\s*\(Code\)/gi, '').replace(/\s+\./g, '.').trim();
+  const cleanCitation = citation => citation.replace(/\s*\((?:PDF|Code)\)/gi, '').replace(/\s+\./g, '.').trim();
   const scholarSearch = title => `https://scholar.google.com/scholar?q=${encodeURIComponent(`"${title}"`)}`;
 
   function linksFor(paper) {

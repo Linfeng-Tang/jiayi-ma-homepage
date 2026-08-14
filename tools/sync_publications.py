@@ -23,6 +23,7 @@ SOURCE_URL = (
     "https://sites.google.com/site/jiayima2013/"
     "jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications"
 )
+SELECTED_SOURCE_URL = "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor"
 
 
 class PublicationPageParser(HTMLParser):
@@ -73,6 +74,49 @@ class PublicationPageParser(HTMLParser):
                 self._link_text.append(data)
 
 
+class SelectedPublicationParser(HTMLParser):
+    """Extract the ordered papers beneath the homepage's Selected Publications heading."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.selected_titles: list[str] = []
+        self._heading_tag: str | None = None
+        self._heading_parts: list[str] = []
+        self._capture_li_depth = 0
+        self._li_parts: list[str] = []
+        self._selected_section = False
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag in {"h1", "h2", "h3"}:
+            self._heading_tag = tag
+            self._heading_parts = []
+        elif self._selected_section and tag == "li":
+            self._capture_li_depth += 1
+        elif self._capture_li_depth and tag == "br":
+            self._li_parts.append(" ")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == self._heading_tag:
+            heading = re.sub(r"\s+", " ", "".join(self._heading_parts)).strip().lower()
+            self._selected_section = "selected publication" in heading or "selected paper" in heading
+            self._heading_tag = None
+            self._heading_parts = []
+        elif self._selected_section and tag == "li" and self._capture_li_depth:
+            self._capture_li_depth -= 1
+            if not self._capture_li_depth:
+                text = re.sub(r"\s+", " ", "".join(self._li_parts)).strip()
+                match = re.search(r'["“]([^"”]+)["”]', text)
+                if match:
+                    self.selected_titles.append(match.group(1).strip())
+                self._li_parts = []
+
+    def handle_data(self, data: str) -> None:
+        if self._heading_tag:
+            self._heading_parts.append(data)
+        if self._capture_li_depth:
+            self._li_parts.append(data)
+
+
 def fetch(url: str) -> str:
     request = Request(url, headers={"User-Agent": "JiayiMaHomepageBot/1.0 (+GitHub Pages)"})
     with urlopen(request, timeout=45) as response:
@@ -101,6 +145,21 @@ def classify_blocks(blocks: list[dict]) -> list[dict]:
         seen.add(key)
         publications.append({"year": year, "citation": compact, "links": block["links"]})
     return publications
+
+
+def selected_titles_from_homepage(source: str) -> list[str]:
+    parser = SelectedPublicationParser()
+    parser.feed(source)
+    titles: list[str] = []
+    seen: set[str] = set()
+    for title in parser.selected_titles:
+        key = re.sub(r"\W+", "", title).lower()
+        if key and key not in seen:
+            titles.append(title)
+            seen.add(key)
+    if len(titles) < 5:
+        raise RuntimeError(f"Only extracted {len(titles)} selected publications; homepage structure may have changed.")
+    return titles
 
 
 def publication_key(publication: dict) -> str | None:
@@ -146,6 +205,7 @@ def main() -> int:
     args = parser.parse_args()
 
     source = fetch(args.url)
+    selected_titles = selected_titles_from_homepage(fetch(SELECTED_SOURCE_URL))
     extractor = PublicationPageParser()
     extractor.feed(source)
     publications = classify_blocks(extractor.blocks)
@@ -155,7 +215,9 @@ def main() -> int:
         )
     output = {
         "source": args.url,
+        "selectedSource": SELECTED_SOURCE_URL,
         "syncedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "selectedTitles": selected_titles,
         "publications": publications,
     }
     destination = Path(args.out)
