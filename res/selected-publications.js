@@ -18,7 +18,14 @@
   }
 
   fetch('res/publications.json', { cache: 'no-store' }).then(response => response.ok ? response.json() : Promise.reject()).then(data => {
-    const byTitle = new Map(data.publications.map(paper => [titleOf(paper.citation), paper]));
+    // Publications are ordered newest first. Keep the first matching title so
+    // journal extensions (e.g. ConvMatch in IEEE TPAMI) take precedence over
+    // their earlier conference versions with the same title.
+    const byTitle = new Map();
+    data.publications.forEach(paper => {
+      const title = titleOf(paper.citation);
+      if (!byTitle.has(title)) byTitle.set(title, paper);
+    });
     const selected = (data.selectedTitles || []).map(title => byTitle.get(title)).filter(Boolean);
     list.innerHTML = selected.map(paper => `<li><p>${escapeHTML(cleanCitation(paper.citation))}</p><p class="paper-actions">${actions(paper)}</p></li>`).join('');
   }).catch(() => { list.innerHTML = '<li>Selected publications are temporarily unavailable.</li>'; });
