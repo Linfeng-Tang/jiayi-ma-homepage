@@ -278,6 +278,20 @@ document.addEventListener('DOMContentLoaded', function () {
       .catch(function () {});
   }
 
+  /* 4b. ESI recognition badges curated from the supplied ESI lists. */
+  var esiHigh = document.getElementById('esi-high-count');
+  var esiHot = document.getElementById('esi-hot-count');
+  if (esiHigh || esiHot) {
+    fetch('res/publications.json', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || !Array.isArray(d.publications)) return;
+        if (esiHigh) esiHigh.textContent = d.publications.filter(function (p) { return p.esiHighlyCited; }).length;
+        if (esiHot) esiHot.textContent = d.publications.filter(function (p) { return p.esiHot; }).length;
+      })
+      .catch(function () {});
+  }
+
   /* 5. GitHub star counts, using res/stars.json (written weekly by the
         scheduled GitHub Action): each code chip on pubs.htm becomes a
         GitHub-style "code | ★ N" button, and hard-coded "N stars" links
