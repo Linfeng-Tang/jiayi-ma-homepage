@@ -622,7 +622,7 @@ a.res-chip:hover .chip-stars {
     border-left-color: rgba(255, 255, 255, 0.45);
 }
 
-a.res-chip {
+a.res-chip, span.res-chip {
     display: inline-block;
     font-family: var(--font-sans);
     font-size: 0.78em;
@@ -1342,7 +1342,7 @@ a.cite-badge::before { content: none; }
 .paper-actions { display: flex !important; flex-wrap: wrap; gap: 7px; margin-top: 7px !important; }
 .paper-actions .res-chip { margin: 0; }
 .paper-actions .cite-badge { border-radius: 999px; }
-.paper-actions .esi-badge { display: inline-block; padding: 0 7px; margin: 0 0 0 1px; border-radius: 6px; font-family: var(--font-sans); font-size: .78em; font-weight: 600; line-height: 1.55; cursor: default; }
+.paper-actions .esi-badge { cursor: default; }
 .esi-badge.esi-high, .scholar-stat.esi-high { color: #0b6b4d; background: #e7f7ef; border-color: #9bd8b9; }
 .esi-badge.esi-hot, .scholar-stat.esi-hot { color: #a84a0a; background: #fff0df; border-color: #f1be8b; }
 [data-theme="dark"] .esi-badge.esi-high, [data-theme="dark"] .scholar-stat.esi-high { color: #94e7bd; background: rgba(27, 118, 75, .24); border-color: rgba(148, 231, 189, .38); }
