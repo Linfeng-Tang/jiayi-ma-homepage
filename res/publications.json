@@ -452,7 +452,8 @@
       "paper": "https://ieeexplore.ieee.org/document/11162636/",
       "paperSource": "crossref",
       "code": "https://github.com/Linfeng-Tang/Mask-DiFuser",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true
     },
     {
       "year": "2025",

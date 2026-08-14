@@ -34,6 +34,11 @@ HOT_TITLES = [
     "Robust Feature Matching for Remote Sensing Image Registration via Locally Linear Transforming",
 ]
 
+# Curator-confirmed additions not present in the archived source list.
+HIGHLY_CITED_ADDITIONS = [
+    "Mask-DiFuser: A Masked Diffusion Model for Unified Unsupervised Image Fusion",
+]
+
 
 def norm(value: str) -> str:
     value = re.sub(r"<[^>]+>", "", value).lower().replace("plus", "+")
@@ -59,6 +64,7 @@ def main() -> None:
     data = json.loads(args.publications.read_text(encoding="utf-8"))
     papers = data["publications"]
     high = matching_titles(papers, args.high_list.read_text(encoding="utf-8"))
+    high.update(norm(item) for item in HIGHLY_CITED_ADDITIONS)
     hot = {norm(item) for item in HOT_TITLES}
     # When a conference paper and its later journal extension share a title,
     # expose only the newest formal publication for a single ESI record.
