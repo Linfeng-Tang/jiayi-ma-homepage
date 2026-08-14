@@ -1230,8 +1230,8 @@
       "year": "2024",
       "citation": "Shihua Zhang and Jiayi Ma*. \"ConvMatch: Rethinking Network Design for Two-View Correspondence Learning\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 46(5), pp. 2920-2935, May 2024.",
       "links": [],
-      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/25456",
-      "paperSource": "crossref",
+      "paper": "https://doi.org/10.1109/TPAMI.2023.3334515",
+      "paperSource": "verified-publisher-doi",
       "code": "https://github.com/SuhZhang/ConvMatch",
       "codeSource": "verified-excel"
     },
