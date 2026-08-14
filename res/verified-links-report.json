@@ -1,0 +1,678 @@
+{
+  "updated": 93,
+  "byField": {
+    "code": 84,
+    "paper": 26
+  },
+  "unmatched": [],
+  "updates": [
+    {
+      "sheet": "蒋兴宇",
+      "title": "Smoothness-Driven Consensus Based on Compact Representation for Robust Feature Matching",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "蒋兴宇",
+      "title": "Appearance-based Loop Closure Detection via Locality-driven Accurate Motion Field Learning",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "蒋兴宇",
+      "title": "Learning for mismatch removal via graph attention networks",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "蒋兴宇",
+      "title": "Robust image matching via local graph structure consensus",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "蒋兴宇",
+      "title": "Robust Feature Matching for Remote Sensing Image Registration via Linear Adaptive Filtering",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "蒋兴宇",
+      "title": "Geometric Estimation via Robust Subspace Recovery",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "蒋兴宇",
+      "title": "Robust Feature Matching Using Spatial Clustering with Heavy Outliers",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "梁鹏伟",
+      "title": "Learning a Generative Model for Fusing Infrared and Visible Images via Conditional Generative Adversarial Network with Dual Discriminators",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "彭程里",
+      "title": "Cross Fusion Net: A Fast Semantic Segmentation Network for Small-scale Semantic Information Capturing in Aerial Scenes",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "彭程里",
+      "title": "DBDnet: A Deep Boosting Strategy for Image Denoising",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "彭程里",
+      "title": "High-quality Wheat Stalk Cross Section Micrograph Measurement via Semantic Segmentation Network",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "彭程里",
+      "title": "Bilateral attention decoder: A lightweight decoder for real-time semantic segmentation",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "Diff-MEF: Cross-modal Diffusion Framework with Text Prompts and Semantic Perception for Multi-exposure Image Fusion",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "Deno-IF: Unsupervised Noisy Visible and Infrared Image Fusion Method",
+      "changed": [
+        "paper"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "URFusion: Unsupervised Unified Degradation-Robust Image Fusion Network",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "CRetinex: A Progressive Color-shift Aware Retinex Model for Low-light Image Enhancement",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "More than Lightening: A Self-supervised Low-light Image Enhancement Method Capable for Multiple Degradations",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "Text-IF: Leveraging Semantic Text Guidance for Degradation-Aware and Interactive Image Fusion",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "Unsupervised Multi-exposure Image Fusion Breaking Exposure Limits via Contrastive Learning",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "Attention-guided Polarization Image Fusion Using Salient Information Distribution",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "CUFD: An encoder-decoder network for visible and infrared image fusion based on common and unique feature decomposition",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "U2Fusion: A Unified Unsupervised Image Fusion Network",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "Classification Saliency-based Rule for Visible and Infrared Image Fusion",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "DRF: Disentangled Representation for Visible and Infrared Image Fusion",
+      "changed": [
+        "paper"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "EMFusion: An unsupervised enhanced medical image fusion network",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "DDcGAN: A Dual-discriminator Conditional Generative Adversarial Network for Multi-resolution Image Fusion",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "FusionDN: A Unified Densely Connected Network for Image Fusion",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "徐涵",
+      "title": "MEF-GAN: Multi-exposure Image Fusion via Generative Adversarial Networks",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "CMVF: Cross-modal unregistered video fusion via spatio-temporal consistency",
+      "changed": [
+        "paper"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "Human-Machine Collaboration in Reshaping Visual Perception and Cognition",
+      "changed": [
+        "paper"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "MagicFuse: Single Image Fusion for Visual and Semantic Reinforcement",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "ReCoFuse: Ultra-Robust Image Fusion via Restorative Multi-Modal Diffusion Reciprocal Coupling",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "OmniFuse: Composite Degradation-Robust Image Fusion with Language-Driven Semantics",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "A Robust Mutual-reinforcing Framework for 3D Multi-modal Medical Image Fusion based on Visual-semantic Consistency",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "Dispel Darkness for Better Fusion: A Controllable Visual Enhancer based on Cross-modal Conditional Adversarial Learning",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "MERF: A Practical HDR‐like Image Generator via Mutual‐guided Learning between Multi‐exposure Registration and Fusion",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "MRFS: Mutually Reinforcing Image Fusion and Segmentation",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "OFPF-MEF: An Optical Flow Guided Dynamic Multi-exposure Image Fusion Network with Progressive Frequencies Learning",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model",
+      "changed": [
+        "paper"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "IID-MEF: A multi-exposure fusion network based on intrinsic image decomposition",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "Infrared and Visible Image Fusion Based on Multiclassification Adversarial Mechanism in Feature Space",
+      "changed": [
+        "paper"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "P2Sharpen: A progressive pansharpening network with deep spectral transformation",
+      "changed": [
+        "paper"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "GAN-FM: Infrared and Visible Image Fusion Using GAN with Full-scale Skip Connection and Dual Markovian Discriminators",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "GANMcC: A Generative Adversarial Network with Multiclassification Constraints for Infrared and Visible Image Fusion",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "MFF-GAN: An unsupervised generative adversarial network with adaptive and gradient joint constraints for multi-focus image fusion",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "SDNet: A Versatile Squeeze-and-Decomposition Network for Real-Time Image Fusion",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "NDVI-Net: A fusion network for generating high-resolution normalized difference vegetation index in remote sensing",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张浩",
+      "title": "Rethinking the Image Fusion: A Fast Unified Image Fusion Network based on Proportional Maintenance of Gradient and Intensity",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "乐朱亮",
+      "title": "MFF-GAN: An unsupervised generative adversarial network with adaptive and gradient joint constraints for multi-focus image fusion",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张恺宁",
+      "title": "ArgMatch: Adaptive Refinement Gathering for Efficient Dense Matching",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张恺宁",
+      "title": "ResMatch: Residual Attention Learning for Feature Matching",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张恺宁",
+      "title": "Sparse-to-dense Multimodal Image Registration via Multi-Task Learning",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张诗化",
+      "title": "SAG-GNN: Semantic-Aware Guided GNN for Descriptor-Free 2D-3D Matching",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张诗化",
+      "title": "DeMatch++: Two-View Correspondence Learning via Deep Motion Field Decomposition and Respective Local-Context Aggregation",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张诗化",
+      "title": "Matching While Perceiving: Enhance Image Feature Matching with Applicable Semantic Amalgamation",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张诗化",
+      "title": "ConvMatch: Rethinking Network Design for Two-View Correspondence Learning",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张诗化",
+      "title": "DeMatch: Deep Decomposition of Motion Field for Two-View Correspondence Learning",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张诗化",
+      "title": "DiffGlue: Diffusion-Aided Image Feature Matching",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张诗化",
+      "title": "U-Match: Exploring Hierarchy-aware Local Context for Two-view Correspondence Learning",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "张诗化",
+      "title": "U-Match: Two-view Correspondence Learning with Hierarchy-aware Local Context Aggregation",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "唐霖峰",
+      "title": "VideoFusion: A Spatio-Temporal Collaborative Network for Multi-modal Video Fusion",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "唐霖峰",
+      "title": "CAMF: An Interpretable Infrared and Visible Image Fusion Network Based on Class Activation Mapping",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "唐霖峰",
+      "title": "DRLIE: Flexible Low-light Image Enhancement via Disentangled Representations",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "唐霖峰",
+      "title": "DRMF: Degradation-Robust Multi-Modal Image Fusion via Composable Diffusion Prior",
+      "changed": [
+        "paper"
+      ]
+    },
+    {
+      "sheet": "唐霖峰",
+      "title": "Deep Learning-based Image Fusion: A survey",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "唐霖峰",
+      "title": "DIVFusion: Darkness-free infrared and visible image fusion",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "唐霖峰",
+      "title": "Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "唐霖峰",
+      "title": "Infrared and visible image fusion via parallel scene and texture learning",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "唐霖峰",
+      "title": "PIAFusion: A progressive infrared and visible image fusion network based on illumination aware",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "唐霖峰",
+      "title": "SuperFusion: A Versatile Image Registration and Fusion Network with Semantic Awareness",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "唐霖峰",
+      "title": "SwinFusion: Cross-domain Long-range Learning for General Image Fusion via Swin Transformer",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "邓宇新",
+      "title": "SDGMNet: Statistic-based Dynamic Gradient Modulation for Local Descriptor Learning",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "邓宇新",
+      "title": "ReDFeat: Recoupling Detection and Description for Multimodal Feature Learning",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "邓宇新",
+      "title": "SuperFusion: A Versatile Image Registration and Fusion Network with Semantic Awareness",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "李梓卓",
+      "title": "CoMatch: Dynamic Covisibility-Aware Transformer for Bilateral Subpixel-Level Semi-Dense Image Matching",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "李梓卓",
+      "title": "Learning Feature Matching via Matchable Keypoint-Assisted Graph Neural Network",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "李梓卓",
+      "title": "Seed to Prune: A Seeded Graph Neural Network for Two-view Correspondence Learning",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "夏一帆",
+      "title": "Grid-guided Sparse Laplacian Consensus for Robust Feature Matching",
+      "changed": [
+        "paper"
+      ]
+    },
+    {
+      "sheet": "夏一帆",
+      "title": "Locality Preserving Refinement for Shape Matching with Functional Maps",
+      "changed": [
+        "paper",
+        "code"
+      ]
+    },
+    {
+      "sheet": "夏一帆",
+      "title": "Robust feature matching via progressive smoothness consensus",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "夏一帆",
+      "title": "Locality-guided Global-preserving Optimization for Robust Feature Matching",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "夏一帆",
+      "title": "Robust image matching via local graph structure consensus",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "龚美琪",
+      "title": "TransFM: Visible-to-Infrared Image Translation via Flow Matching",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "龚美琪",
+      "title": "TemCoCo: Temporally Consistent Multi-modal Video Fusion with Visual-Semantic Collaboration",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "龚美琪",
+      "title": "Cross-Scale Domain Adaptation with Comprehensive Information for Pansharpening",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "龚美琪",
+      "title": "Multipatch Progressive Pansharpening with Knowledge Distillation",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "龚美琪",
+      "title": "CUFD: An encoder-decoder network for visible and infrared image fusion based on common and unique feature decomposition",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "龚美琪",
+      "title": "D2TNet: A ConvLSTM Network with Dual-direction Transfer for Pan-sharpening",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "伊勋鹏",
+      "title": "LL-Refiner: Learning Adaptive Refinement for Ultra-High-Definition Low-Light Image Enhancement",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "伊勋鹏",
+      "title": "Diff-Retinex++: Retinex-Driven Reinforced Diffusion Model for Low-Light Image Enhancement",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "伊勋鹏",
+      "title": "Diff-IF: Multi-modality image fusion via diffusion model with fusion knowledge prior",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "伊勋鹏",
+      "title": "Text-IF: Leveraging Semantic Text Guidance for Degradation-Aware and Interactive Image Fusion",
+      "changed": [
+        "code"
+      ]
+    },
+    {
+      "sheet": "乐佳俊",
+      "title": "DeMo: Deep Motion Field Consensus with Learnable Kernels for Two-view Correspondence Learning",
+      "changed": [
+        "code"
+      ]
+    }
+  ]
+}
