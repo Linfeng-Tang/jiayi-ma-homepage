@@ -161,15 +161,15 @@ body {
 }
 
 .profile-text h2 {
-    display: inline-block;
+    display: block;
     font-family: var(--font-sans);
-    font-size: 0.82rem;
+    font-size: 0.98rem;
     font-weight: 600;
-    letter-spacing: 0.05em;
-    color: var(--white);
-    background: var(--primary);
-    padding: 3px 14px;
-    border-radius: 999px;
+    letter-spacing: 0;
+    color: var(--text-light);
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
     margin: 0 0 18px 0;
 }
 
@@ -1134,9 +1134,7 @@ sup, sub {
     background: linear-gradient(135deg, #1b2434 0%, #141b27 100%);
 }
 
-[data-theme="dark"] .profile-text h2 {
-    color: #0e1319;
-}
+[data-theme="dark"] .profile-text h2 { color: #c0c8d5; }
 
 [data-theme="dark"] .year-nav {
     background: rgba(23, 30, 40, 0.94);
