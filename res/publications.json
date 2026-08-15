@@ -1,7 +1,7 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
   "selectedSource": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor",
-  "syncedAt": "2026-08-15T13:02:24Z",
+  "syncedAt": "2026-08-15T18:50:46Z",
   "selectedTitles": [
     "Towards Heterogeneous-Degradation-Robust Image Fusion with Controllable Generative Modulation",
     "GText-IF: Leveraging Text-Driven Semantics for Degradation-Aware Image Fusion",
@@ -311,9 +311,7 @@
       "year": "2026",
       "citation": "Jun Chen, Wei Yu, Xin Tian, Jun Huang, and Jiayi Ma*. \"MDbFusion++: A Visible and Infrared Image Fusion Framework Capable for Motion Deblurring\", IEEE Transactions on Image Processing, 35, pp. 3647-3661, Apr. 2026.",
       "links": [],
-      "paperChecked": true,
-      "paper": "https://ieeexplore.ieee.org/document/10647563/",
-      "paperSource": "crossref"
+      "paperChecked": true
     },
     {
       "year": "2026",
@@ -1015,7 +1013,9 @@
       "citation": "Changcai Yang, Xiaojie Li, Jiayi Ma, Fengyuan Zhuang, Lifang Wei, Riqing Chen, and Guodong Chen. \"CGR-Net: Consistency Guided ResFormer for Two-View Correspondence Learning\", IEEE Transactions on Circuits and Systems for Video Technology, 34(12), pp. 12450-12465, Dec. 2024.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/10623710/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/XiaojieLi11/CGR-Net",
+      "codeSource": "paper-abstract"
     },
     {
       "year": "2024",
@@ -1184,7 +1184,9 @@
     {
       "year": "2024",
       "citation": "Zhen Yang, Jun Yue, Pedram Ghamisi, Shiliang Zhang, Jiayi Ma, and Leyuan Fang. \"Open Set Recognition in Real World\", International Journal of Computer Vision, 132(8), pp. 3208-3231, Aug. 2024.",
-      "links": []
+      "links": [],
+      "code": "https://github.com/ageitgey/face_recognition",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2024",
@@ -1913,10 +1915,10 @@
       "links": [],
       "paper": "https://dl.acm.org/doi/10.1145/3485132",
       "paperSource": "crossref",
-      "esiHighlyCited": true,
-      "esiHot": true,
       "code": "https://github.com/TsHuang/SR_Survey",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "esiHighlyCited": true,
+      "esiHot": true
     },
     {
       "year": "2022",
@@ -3985,5 +3987,6 @@
       "paper": "http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.903301",
       "paperSource": "crossref"
     }
-  ]
+  ],
+  "citationSyncedAt": "2026-08-15T18:51:59Z"
 }
