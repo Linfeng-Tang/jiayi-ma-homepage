@@ -1,7 +1,7 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
   "selectedSource": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor",
-  "syncedAt": "2026-08-15T07:01:40Z",
+  "syncedAt": "2026-08-15T13:02:24Z",
   "selectedTitles": [
     "Towards Heterogeneous-Degradation-Robust Image Fusion with Controllable Generative Modulation",
     "GText-IF: Leveraging Text-Driven Semantics for Degradation-Aware Image Fusion",
@@ -311,7 +311,9 @@
       "year": "2026",
       "citation": "Jun Chen, Wei Yu, Xin Tian, Jun Huang, and Jiayi Ma*. \"MDbFusion++: A Visible and Infrared Image Fusion Framework Capable for Motion Deblurring\", IEEE Transactions on Image Processing, 35, pp. 3647-3661, Apr. 2026.",
       "links": [],
-      "paperChecked": true
+      "paperChecked": true,
+      "paper": "https://ieeexplore.ieee.org/document/10647563/",
+      "paperSource": "crossref"
     },
     {
       "year": "2026",
@@ -622,9 +624,9 @@
       "year": "2025",
       "citation": "Xingyu Hu, Junjun Jiang, Chenyang Wang, Kui Jiang, Xianming Liu, and Jiayi Ma. \"Balancing Task-invariant Interaction and Task-specific Adaptation for Unified Image Fusion\", in Proceedings of the IEEE International Conference on Computer Vision (ICCV), pp. 11262-11272, Oct. 2025.",
       "links": [],
-      "paperChecked": true,
       "code": "https://github.com/huxingyuabc/TITA",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "paperChecked": true
     },
     {
       "year": "2025",
@@ -1912,7 +1914,9 @@
       "paper": "https://dl.acm.org/doi/10.1145/3485132",
       "paperSource": "crossref",
       "esiHighlyCited": true,
-      "esiHot": true
+      "esiHot": true,
+      "code": "https://github.com/TsHuang/SR_Survey",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2022",
@@ -1953,7 +1957,9 @@
       "citation": "Huabing Zhou, Jilei Hou, Yanduo Zhang, Jiayi Ma*, and Haibin Ling. \"Unified gradient- and intensity-discriminator generative adversarial network for image fusion\", Information Fusion, 88, pp. 184-201, Dec. 2022.",
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253522000768",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/Jilei-Hou/GIDGAN",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2022",
@@ -1976,14 +1982,18 @@
       "citation": "Xinya Wang, Qian Hu, junjun Jiang, and Jiayi Ma*. \"A Group-based Embedding Learning and Integration Network for Hyperspectral Image Super-resolution\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5541416, Nov. 2022.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9930808/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/HuQ1an/GELIN_TGRS",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2022",
       "citation": "Aoxiang Fan, Jiayi Ma*, Xingyu Jiang, and Haibin Ling. \"Efficient Deterministic Search with Robust Loss Functions for Geometric Model Fitting\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(11), pp. 8212-8229, Nov. 2022.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9528069/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/AoxiangFan/EifficientDeterministicSearch",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2022",
@@ -2011,12 +2021,16 @@
       "citation": "Pengwei Liang, Junjun Jiang, Xianming Liu, and Jiayi Ma. \"Fusion from Decomposition: A Self-Supervised Decomposition Approach for Image Fusion\", in Proceedings of the European Conference on Computer Vision (ECCV), pp. 719-735, Oct. 2022.",
       "links": [],
       "paper": "https://link.springer.com/10.1007/978-3-031-19797-0_41",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/erfect2020/DecompositionForFusion",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2022",
       "citation": "Youming Deng, Yansheng Li, Yongjun Zhang, Xiang Xiang, Jian Wang, Jingdong Chen, and Jiayi Ma. \"Hierarchical Memory Learning for Fine-Grained Scene Graph Generation\", in Proceedings of the European Conference on Computer Vision (ECCV), pp. 266-283, Oct. 2022.",
-      "links": []
+      "links": [],
+      "code": "https://github.com/denghilbert/ECCV2022-Hierarchical-Memory-Learning-for-Fine-Grained-Scene-Graph-Generation",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2022",
@@ -2112,7 +2126,9 @@
       "citation": "Xi Gong, Feng Yao, Jiayi Ma, Junjun Jiang, Tao Lu, Yanduo Zhang, and Huabing Zhou. \"Feature Matching for Remote-Sensing Image Registration via Neighborhood Topological and Affine Consistency\", Remote Sensing, 14(11), pp. 2606, Jun. 2022.",
       "links": [],
       "paper": "https://www.mdpi.com/2072-4292/14/11/2606",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/StaRainJ/LAF",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2022",
@@ -2145,7 +2161,9 @@
       "citation": "Aoxiang Fan, Jiayi Ma*, Xin Tian, Xiaoguang Mei, and Wei Liu. \"Coherent Point Drift Revisited for Non-rigid Shape Matching and Registration\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 1424-1434, Jun. 2022.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9879560/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/AoxiangFan/GeneralizedCoherentPointDrift",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2022",
@@ -3967,6 +3985,5 @@
       "paper": "http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.903301",
       "paperSource": "crossref"
     }
-  ],
-  "citationSyncedAt": "2026-08-15T07:02:47Z"
+  ]
 }
