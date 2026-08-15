@@ -1,7 +1,7 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
   "selectedSource": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor",
-  "syncedAt": "2026-08-15T01:52:50Z",
+  "syncedAt": "2026-08-15T07:01:40Z",
   "selectedTitles": [
     "Towards Heterogeneous-Degradation-Robust Image Fusion with Controllable Generative Modulation",
     "GText-IF: Leveraging Text-Driven Semantics for Degradation-Aware Image Fusion",
@@ -622,14 +622,18 @@
       "year": "2025",
       "citation": "Xingyu Hu, Junjun Jiang, Chenyang Wang, Kui Jiang, Xianming Liu, and Jiayi Ma. \"Balancing Task-invariant Interaction and Task-specific Adaptation for Unified Image Fusion\", in Proceedings of the IEEE International Conference on Computer Vision (ICCV), pp. 11262-11272, Oct. 2025.",
       "links": [],
-      "paperChecked": true
+      "paperChecked": true,
+      "code": "https://github.com/huxingyuabc/TITA",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
       "citation": "Xiyu Zhang, Jiayi Ma, Jianwei Guo, Wei Hu, Zhaoshuai Qi, Fei Hui, Jiaqi Yang, and Yanning Zhang. \"HyperGCT: A Dynamic Hyper-GNN-Learned Geometric Constraint for 3D Registration\", in Proceedings of the IEEE International Conference on Computer Vision (ICCV), pp. 24750-24759, Oct. 2025.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/abstract/document/11443336/",
-      "paperSource": "curated-publisher"
+      "paperSource": "curated-publisher",
+      "code": "https://github.com/zhangxy0517/HyperGCT",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
@@ -639,7 +643,9 @@
     {
       "year": "2025",
       "citation": "Yingsong Cheng, Yong Ma, Fan Fan, Jiayi Ma, Yuan Yao, and Xiaoguang Mei. \"Latent spectral-spatial diffusion model for single hyperspectral super-resolution\", Geo-spatial Information Science, 28(5), pp. 2415-2430, Oct. 2025.",
-      "links": []
+      "links": [],
+      "code": "https://github.com/chengyingsong/LSDiff",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
@@ -653,7 +659,9 @@
       "citation": "Mingyue Li, Chengyi Xiong, Zhirong Gao, and Jiayi Ma. \"HAM: Hierarchical Attention Mamba with Spatial-Frequency Fusion for Remote Sensing Image Super-Resolution\", IEEE Transactions on Geoscience and Remote Sensing, 63, pp. 5641314, Sept. 2025.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/11151607/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/Lmy-0914/HAM",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
@@ -2076,7 +2084,7 @@
       "paperSource": "crossref",
       "code": "https://github.com/Linfeng-Tang/SwinFusion",
       "codeSource": "verified-excel",
-      "citations": 1656,
+      "citations": 1661,
       "esiHighlyCited": true,
       "esiHot": true
     },
@@ -2088,7 +2096,7 @@
       "paperSource": "crossref",
       "code": "https://github.com/Linfeng-Tang/PIAFusion",
       "codeSource": "verified-excel",
-      "citations": 1327,
+      "citations": 1333,
       "esiHighlyCited": true,
       "esiHot": true
     },
@@ -2156,7 +2164,7 @@
       "paperSource": "verified-excel",
       "code": "https://github.com/Linfeng-Tang/SeAFusion",
       "codeSource": "verified-excel",
-      "citations": 1220,
+      "citations": 1223,
       "esiHighlyCited": true,
       "esiHot": true
     },
@@ -2410,7 +2418,7 @@
       "paperSource": "verified-excel",
       "code": "https://github.com/hanna-xu/U2Fusion",
       "codeSource": "verified-excel",
-      "citations": 2638,
+      "citations": 2646,
       "esiHighlyCited": true,
       "esiHot": true
     },
@@ -2425,7 +2433,7 @@
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253521001342",
       "paperSource": "crossref",
-      "citations": 955,
+      "citations": 957,
       "esiHighlyCited": true,
       "esiHot": true
     },
@@ -2476,7 +2484,7 @@
       "paperSource": "crossref",
       "code": "https://github.com/HaoZhang1018/SDNet",
       "codeSource": "verified-excel",
-      "citations": 818,
+      "citations": 819,
       "esiHighlyCited": true
     },
     {
@@ -2520,7 +2528,7 @@
       "links": [],
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S156625352100035X",
       "paperSource": "crossref",
-      "citations": 634,
+      "citations": 635,
       "esiHighlyCited": true,
       "esiHot": true
     },
@@ -2684,7 +2692,7 @@
       "paperSource": "crossref",
       "code": "https://github.com/zhangyhuaee/KinD_plus",
       "codeSource": "github-title-search",
-      "citations": 1215,
+      "citations": 1219,
       "esiHighlyCited": true
     },
     {
@@ -2789,7 +2797,7 @@
       "paperSource": "crossref",
       "code": "https://github.com/HaoZhang1018/GANMcC",
       "codeSource": "verified-excel",
-      "citations": 894,
+      "citations": 896,
       "esiHighlyCited": true
     },
     {
@@ -2798,7 +2806,7 @@
       "links": [],
       "paper": "https://link.springer.com/10.1007/s11263-020-01359-2",
       "paperSource": "crossref",
-      "citations": 1226,
+      "citations": 1228,
       "esiHighlyCited": true,
       "esiHot": true
     },
@@ -2951,7 +2959,7 @@
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/9157472/",
       "paperSource": "crossref",
-      "citations": 1126
+      "citations": 1127
     },
     {
       "year": "2020",
@@ -2982,7 +2990,7 @@
       "paperSource": "crossref",
       "code": "https://github.com/hanna-xu/DDcGAN",
       "codeSource": "verified-excel",
-      "citations": 1521,
+      "citations": 1524,
       "esiHighlyCited": true
     },
     {
@@ -3000,7 +3008,7 @@
       "paperSource": "crossref",
       "code": "https://github.com/hanna-xu/FusionDN",
       "codeSource": "verified-excel",
-      "citations": 756
+      "citations": 758
     },
     {
       "year": "2020",
@@ -3140,7 +3148,7 @@
       "paperSource": "crossref",
       "code": "https://github.com/jiayi-ma/FusionGAN",
       "codeSource": "github-title-search",
-      "citations": 2644,
+      "citations": 2649,
       "esiHighlyCited": true,
       "esiHot": true
     },
@@ -3259,7 +3267,7 @@
       "paperSource": "crossref",
       "code": "https://github.com/JorgeFCS/Image-fusion-GAN",
       "codeSource": "github-title-search",
-      "citations": 2095,
+      "citations": 2098,
       "esiHighlyCited": true,
       "esiHot": true
     },
@@ -3959,5 +3967,6 @@
       "paper": "http://proceedings.spiedigitallibrary.org/proceeding.aspx?doi=10.1117/12.903301",
       "paperSource": "crossref"
     }
-  ]
+  ],
+  "citationSyncedAt": "2026-08-15T07:02:47Z"
 }
