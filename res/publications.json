@@ -1,7 +1,7 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
   "selectedSource": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor",
-  "syncedAt": "2026-08-16T02:00:26Z",
+  "syncedAt": "2026-08-16T07:04:19Z",
   "selectedTitles": [
     "Towards Heterogeneous-Degradation-Robust Image Fusion with Controllable Generative Modulation",
     "GText-IF: Leveraging Text-Driven Semantics for Degradation-Aware Image Fusion",
@@ -620,26 +620,23 @@
     {
       "year": "2025",
       "citation": "Nan Zhang, Youmeng Liu, Hao Liu, Tian Tian, Jiayi Ma, and Jinwen Tian. \"Hierarchical diffusion models for generating various pattern vehicles in infrared aerial images\", Pattern Recognition, 166, pp. 111658, Oct. 2025.",
-      "links": [],
-      "paperChecked": true
+      "links": []
     },
     {
       "year": "2025",
       "citation": "Yingsong Cheng, Yong Ma, Fan Fan, Jiayi Ma, Yuan Yao, and Xiaoguang Mei. \"Latent spectral-spatial diffusion model for single hyperspectral super-resolution\", Geo-spatial Information Science, 28(5), pp. 2415-2430, Oct. 2025.",
       "links": [],
       "code": "https://github.com/chengyingsong/LSDiff",
-      "codeSource": "github-title-search",
-      "paperChecked": true
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
       "citation": "Han Xu, Xunpeng Yi, Chen Lu, Guangcan Liu*, and Jiayi Ma*. \"URFusion: Unsupervised Unified Degradation-Robust Image Fusion Network\", IEEE Transactions on Image Processing, 34, pp. 5803-5818, Sept. 2025.",
       "links": [],
-      "code": "https://github.com/hanna-xu/URFusion",
-      "codeSource": "verified-excel",
-      "paperChecked": true,
       "paper": "https://ieeexplore.ieee.org/document/11164897/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/hanna-xu/URFusion",
+      "codeSource": "verified-excel"
     },
     {
       "year": "2025",
@@ -662,31 +659,27 @@
     {
       "year": "2025",
       "citation": "Pengwei Liang, Junjun Jiang, Qing Ma, Chenyang Wang, Xianming Liu, and Jiayi Ma. \"FusionINV: A Diffusion-Based Approach for Multimodal Image Fusion\", IEEE Transactions on Image Processing, 34, pp. 5355-5368, Aug. 2025.",
-      "links": [],
-      "paperChecked": true
+      "links": []
     },
     {
       "year": "2025",
       "citation": "Xunpeng Yi, Han Xu, Hao Zhang, Linfeng Tang, and Jiayi Ma*. \"Diff-Retinex++: Retinex-Driven Reinforced Diffusion Model for Low-Light Image Enhancement\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(8), pp. 6823-6841, Aug. 2025.",
       "links": [],
+      "paper": "https://ieeexplore.ieee.org/document/10974676/",
+      "paperSource": "crossref",
       "code": "https://github.com/XunpengYi/Diff-Retinex",
       "codeSource": "verified-excel",
-      "esiHighlyCited": true,
-      "paperChecked": true,
-      "paper": "https://ieeexplore.ieee.org/document/10974676/",
-      "paperSource": "crossref"
+      "esiHighlyCited": true
     },
     {
       "year": "2025",
       "citation": "Linshan Wu, Zhun Zhong, Jiayi Ma, Yunchao Wei, Hao Chen, Leyuan Fang, and Shutao Li. \"Modeling the Label Distributions for Weakly-Supervised Semantic Segmentation\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 47(8), pp. 6290-6306, Aug. 2025.",
-      "links": [],
-      "paperChecked": true
+      "links": []
     },
     {
       "year": "2025",
       "citation": "Meng Yang, Fan Fan, Jun Huang, Yong Ma, Xiaoguang Mei, Zhanchuan Cai, and Jiayi Ma. \"Multimodal Image Matching based on Cross-Modality Completion Pre-training\", in Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI), pp. 2206-2214, Aug. 2025.",
       "links": [],
-      "paperChecked": true,
       "paper": "https://www.ijcai.org/proceedings/2024/246",
       "paperSource": "crossref"
     },
@@ -701,8 +694,7 @@
     {
       "year": "2025",
       "citation": "Bin Sun, Hang You, Wenbo Li, Xiangrui Liu, and Jiayi Ma. \"Dual-band payload image fusion and its application in low-altitude remote sensing\", Acta Aeronautica et Astronautica Sinica (航空学报), 46(15), pp. 331343, Aug. 2025.",
-      "links": [],
-      "paperChecked": true
+      "links": []
     },
     {
       "year": "2025",
@@ -771,43 +763,37 @@
     {
       "year": "2025",
       "citation": "Jiayi Ma, Xinyu Xiang, Qinglong Yan, Hao Zhang, Jun Huang, and Yong Ma. \"Patch-based Adversarial Example Generation Method for Multi-spectral Object Tracking\", Journal of Electronics & Information Technology (电子与信息学报), 47(6), pp. 1623-1632, Jun. 2025.",
-      "links": [],
-      "paperChecked": true
+      "links": []
     },
     {
       "year": "2025",
       "citation": "Yansheng Li, Yuning Wu, Gong Cheng, Chao Tao, Bo Dang, Yu Wang, Jiahao Zhang, Chuge Zhang, Yiting Liu, Xu Tang, Jiayi Ma*, and Yongjun Zhang*. \"MEET: A Million-Scale Dataset for Fine-Grained Geospatial Scene Classification with Zoom-Free Remote Sensing Imagery\", IEEE/CAA Journal of Automatica Sinica, 12(5), pp. 1004-1023, May 2025.",
       "links": [],
-      "esiHighlyCited": true,
-      "paperChecked": true
+      "esiHighlyCited": true
     },
     {
       "year": "2025",
       "citation": "Jun Chen, Liling Yang, Wei Yu, Wenping Gong, Zhanchuan Cai, and Jiayi Ma*. \"SDSFusion: A Semantic-Aware Infrared and Visible Image Fusion Network for Degraded Scenes\", IEEE Transactions on Image Processing, 34, pp. 3139-3153, May 2025.",
       "links": [],
       "code": "https://github.com/Liling-yang/SDSFusion",
-      "codeSource": "github-title-search",
-      "paperChecked": true
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
       "citation": "Nan Zhang, Borui Chai, Jiamin Song, Tian Tian, Pengfei Zhu, Jiayi Ma, and Jinwen Tian, \"Omni-Scene Infrared Vehicle Detection: An Efficient Selective Aggregation approach and a unified benchmark\", ISPRS Journal of Photogrammetry and Remote Sensing, 223, pp. 244-260, May 2025.",
-      "links": [],
-      "paperChecked": true
+      "links": []
     },
     {
       "year": "2025",
       "citation": "Yining Xie, Zequn Liu, Jiajun Chen, Wei Zhang, Jing Zhao, and Jiayi Ma. \"SD-MIL: Multiple Instance Learning with Dual Perception of Scale and Distance Information Fusion for Whole Slide Image Classification\", Expert Systems with Applications, 273, pp. 126831, May 2025.",
-      "links": [],
-      "paperChecked": true
+      "links": []
     },
     {
       "year": "2025",
       "citation": "Yining Xie, Zequn Liu, Jing Zhao, and Jiayi Ma*. \"PHIM-MIL: Multiple instance learning with prototype similarity-guided feature fusion and hard instance mining for whole slide image classification\", Information Fusion, 117, pp. 102847, May 2025.",
       "links": [],
       "code": "https://github.com/Lliu666liuliu/PHIM-MIL",
-      "codeSource": "github-title-search",
-      "paperChecked": true
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
@@ -823,16 +809,14 @@
       "citation": "Yifan Lu and Jiayi Ma*. \"Feature Matching via Graph Clustering with Local Affine Consensus\", International Journal of Computer Vision, 133(5), pp. 2259-2286, May 2025.",
       "links": [],
       "code": "https://github.com/YifanLu2000/GCLAC",
-      "codeSource": "github-title-search",
-      "paperChecked": true
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
       "citation": "Hao Wang, Huabing Zhou, Yanduo Zhang, Jiayi Ma, and Haibin Ling. \"Word Length-aware Text Spotting: Enhancing Dense Text Detection and Recognition for Camera-captured Document Image\", IEEE Transactions on Instrumentation and Measurement, 74, pp. 5026915, Apr. 2025.",
       "links": [],
       "code": "https://github.com/unxiaohao/WordLenSpotter",
-      "codeSource": "github-title-search",
-      "paperChecked": true
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
@@ -844,8 +828,7 @@
     {
       "year": "2025",
       "citation": "Kangle Wu, Jun Huang, Yong Ma, Fan Fan, and Jiayi Ma. \"Mutually Reinforcing Learning of Decoupled Degradation and Diffusion Enhancement for Unpaired Low-Light Image Lightening\", IEEE Transactions on Image Processing, 34, pp. 2020-2035, Apr. 2025.",
-      "links": [],
-      "paperChecked": true
+      "links": []
     },
     {
       "year": "2025",
@@ -859,8 +842,7 @@
       "citation": "Pengwei Liang, Junjun Jiang, Xianming Liu, and Jiayi Ma. \"Image Deblurring by Exploring In-depth Properties of Transformer\", IEEE Transactions on Neural Networks and Learning Systems, 36(3), pp. 4652-4663, Mar. 2025.",
       "links": [],
       "code": "https://github.com/erfect2020/TransformerPerceptualLoss",
-      "codeSource": "github-title-search",
-      "paperChecked": true
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
@@ -869,15 +851,13 @@
       "paper": "https://ieeexplore.ieee.org/abstract/document/10891339",
       "paperSource": "verified-excel",
       "code": "https://github.com/XiaYifan1999/GSLC",
-      "codeSource": "github-title-search",
-      "paperChecked": true
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
       "citation": "Jiayang Li, Junjun Jiang, Pengwei Liang, Jiayi Ma, and Liqiang Nie. \"MaeFuse: Transferring Omni Features with Pretrained Masked Autoencoders for Infrared and Visible Image Fusion via Guided Training\", IEEE Transactions on Image Processing, 34, pp. 1340-1353, Feb. 2025.",
       "links": [],
-      "esiHighlyCited": true,
-      "paperChecked": true
+      "esiHighlyCited": true
     },
     {
       "year": "2025",
@@ -2259,29 +2239,37 @@
     {
       "year": "2022",
       "citation": "Qing Ma, Junjun Jiang, Xianming Liu, and Jiayi Ma. \"Multi-task Interaction learning for Spatiospectral Image Super-Resolution\", IEEE Transactions on Image Processing, 31, pp. 2950-2961, Apr. 2022.",
-      "links": []
+      "links": [],
+      "paperChecked": true,
+      "paper": "https://ieeexplore.ieee.org/document/9744127/",
+      "paperSource": "crossref"
     },
     {
       "year": "2022",
       "citation": "Erting Pan, Yong Ma, Xiaoguang Mei, Fan Fan, Jun Huang, and Jiayi Ma. \"SQAD: Spatial-Spectral Quasi-Attention Recurrent Network for Hyperspectral Image Denoising\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5524814, Apr. 2022.",
       "links": [],
       "code": "https://github.com/EtPan/SQAD",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "paperChecked": true,
+      "paper": "https://ieeexplore.ieee.org/document/9732909/",
+      "paperSource": "crossref"
     },
     {
       "year": "2022",
       "citation": "Han Xu, Meiqi Gong, Xin Tian, Jun Huang, and Jiayi Ma*. \"CUFD: An encoder-decoder network for visible and infrared image fusion based on common and unique feature decomposition\", Computer Vision and Image Understanding, 218, pp. 103407, Apr. 2022.",
       "links": [],
-      "paper": "https://doi.org/10.1016/j.cviu.2022.103407",
-      "paperSource": "verified-excel",
+      "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1077314222000352",
+      "paperSource": "crossref",
       "code": "https://github.com/KN-Zhang/LAL",
       "codeSource": "verified-excel",
-      "esiHighlyCited": true
+      "esiHighlyCited": true,
+      "paperChecked": true
     },
     {
       "year": "2022",
       "citation": "Zizhuo Li, Yong Ma, Xiaoguang Mei, Jun Huang, and Jiayi Ma*. \"Guided neighborhood affine subspace embedding for feature matching\", Pattern Recognition, 124, pp. 108489, Apr. 2022.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2022",
@@ -2383,7 +2371,8 @@
     {
       "year": "2022",
       "citation": "Xin Tian, Rui Liu, Zhongyuan Wang, and Jiayi Ma. \"High quality 3D reconstruction based on fusion of polarization imaging and binocular stereo vision\", Information Fusion, 77, pp. 19-28, Jan. 2022.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2022",
@@ -2400,7 +2389,8 @@
       "citation": "Qiwen Jin, Yong Ma, Xiaoguang Mei, and Jiayi Ma. \"TANet: An Unsupervised Two-Stream Autoencoder Network for Hyperspectral Unmixing\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5506215, Jan. 2022.",
       "links": [],
       "code": "https://github.com/qiwenjjin/TANet",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "paperChecked": true
     },
     {
       "year": "2022",
@@ -2415,7 +2405,8 @@
       "year": "2022",
       "citation": "Xinya Wang, Jiayi Ma*, and Junjun Jiang. \"Hyperspectral Image Super-Resolution via Recurrent Feedback Embedding and Spatial-Spectral Consistency Regularization\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5503113, Jan. 2022.",
       "links": [],
-      "esiHighlyCited": true
+      "esiHighlyCited": true,
+      "paperChecked": true
     },
     {
       "year": "2022",
@@ -2423,20 +2414,23 @@
       "links": [],
       "code": "https://github.com/pcl111/CF-Net",
       "codeSource": "verified-excel",
-      "esiHighlyCited": true
+      "esiHighlyCited": true,
+      "paperChecked": true
     },
     {
       "year": "2022",
       "citation": "Xin Tian, Yuerong Chen, Changcai Yang, and Jiayi Ma*. \"Variational Pansharpening by Exploiting Cartoon-texture Similarities\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5400416, Jan. 2022.",
       "links": [],
-      "esiHighlyCited": true
+      "esiHighlyCited": true,
+      "paperChecked": true
     },
     {
       "year": "2022",
       "citation": "Guobao Xiao, Huan Luo, Kun Zeng, Leyi Wei and Jiayi Ma*. \"Robust Feature Matching for Remote Sensing Image Registration via Guided Hyperplane Fitting\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5600714, Jan. 2022.",
       "links": [],
       "code": "https://github.com/StaRainJ/LAF",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "paperChecked": true
     },
     {
       "year": "2022",
@@ -2448,12 +2442,14 @@
       "codeSource": "verified-excel",
       "citations": 2646,
       "esiHighlyCited": true,
-      "esiHot": true
+      "esiHot": true,
+      "paperChecked": true
     },
     {
       "year": "2021",
       "citation": "Yang Yu, Yong Ma, Xiaoguang Mei, Fan Fan, Jun Huang and Jiayi Ma. \"A Spatial-Spectral Feature Descriptor for Hyperspectral Image Matching\", Remote Sensing, 13(23), pp. 4912, Dec. 2021.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2021",
@@ -2473,12 +2469,14 @@
       "paperSource": "verified-excel",
       "code": "https://github.com/hanna-xu/EMFusion",
       "codeSource": "verified-excel",
-      "esiHighlyCited": true
+      "esiHighlyCited": true,
+      "paperChecked": true
     },
     {
       "year": "2021",
       "citation": "Rui Liu, Xin Tian, Fang He, and Jiayi Ma. \"Multi-depth photon-counting imaging based on polarisation modulation\", Optics Express, 29(24), pp. 39362-39375, Nov. 2021.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2021",
@@ -2570,7 +2568,8 @@
     {
       "year": "2021",
       "citation": "Erting Pan, Yong Ma, Jun Huang, Fan Fan, Hao Li, and Jiayi Ma. \"Hyperspectral image classification evaluated across different datasets\", Journal of Image and Graphics (中国图象图形学报), 26(8), pp. 1969-1977, Aug. 2021.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2021",
@@ -2587,7 +2586,8 @@
       "paperSource": "verified-excel",
       "code": "https://github.com/hanna-xu/CSF",
       "codeSource": "verified-excel",
-      "esiHighlyCited": true
+      "esiHighlyCited": true,
+      "paperChecked": true
     },
     {
       "year": "2021",
@@ -2602,22 +2602,26 @@
     {
       "year": "2021",
       "citation": "Xin Tian, Wei Chen, Zhongyuan Wang, and Jiayi Ma*. \"Polarization Prior for Single-Photon Counting Image Denoising\", Optics Express, 29(14), pp. 21664-21682, Jul. 2021.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2021",
       "citation": "Guobao Xiao, Hanzi Wang, Jiayi Ma, and David Suter. \"Segmentation by Continuous Latent Semantic Analysis for Multi-structure Model Fitting\", International Journal of Computer Vision, 129(7), pp. 2034-2056, Jul. 2021.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2021",
       "citation": "Kun Li, Wei Zhang, Xin Tian, Jiayi Ma, Huabing Zhou, and Zhongyuan Wang. \"Variation-net: Interpretable Variation-inspired Deep Network for Pansharpening\", in Proceedings of the IEEE International Conference on Multimedia and Expo (ICME), Jul. 2021.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2021",
       "citation": "Xingyu Hu, Junjun Jiang, Xianming Liu, and Jiayi Ma. \"Zero-Shot Multi-Focus Image Fusion\", in Proceedings of the IEEE International Conference on Multimedia and Expo (ICME), Jul. 2021 (Oral).",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2021",
