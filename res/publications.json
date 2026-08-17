@@ -1,7 +1,7 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
   "selectedSource": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor",
-  "syncedAt": "2026-08-16T18:49:57Z",
+  "syncedAt": "2026-08-17T01:58:06Z",
   "selectedTitles": [
     "Towards Heterogeneous-Degradation-Robust Image Fusion with Controllable Generative Modulation",
     "GText-IF: Leveraging Text-Driven Semantics for Degradation-Aware Image Fusion",
@@ -216,7 +216,9 @@
     {
       "year": "2026",
       "citation": "Hebaixu Wang, Jing Zhang, Haoyang Chen, Haonan Guo, Di Wang, Jiayi Ma*, and Bo Du. \"Residual Diffusion Bridge Model for Image Restoration\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 8375-8386, Jun. 2026. (Highlight)",
-      "links": []
+      "links": [],
+      "code": "https://github.com/MiliLab/RDBM",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2026",
@@ -239,7 +241,9 @@
     {
       "year": "2026",
       "citation": "Haiyang Jiang, Huiqin Zhang, YanDuo Zhang, Jiayi Ma, Junjun Jiang, and Huabing Zhou. \"PhyFusion: Physics-Aware Infrared and Visible Image Fusion via Modality-Specific Physical Priors\", in Findings-Specific Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (Findings of CVPR), pp. 4993-5002, Jun. 2026.",
-      "links": []
+      "links": [],
+      "code": "https://github.com/HaiyanggJiang/PhyFusion",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2026",
@@ -571,7 +575,9 @@
       "citation": "Xunpeng Yi, Yibing Zhang, Xinyu Xiang, Qinglong Yan, Han Xu, and Jiayi Ma*. \"LUT-Fuse: Towards Extremely Fast Infrared and Visible Image Fusion via Distillation to Learnable Look-Up Tables\", in Proceedings of the IEEE International Conference on Computer Vision (ICCV), pp. 14559-14568, Oct. 2025.",
       "links": [],
       "paper": "https://ieeexplore.ieee.org/document/11444858/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/zyb5/LUT-Fuse",
+      "codeSource": "github-title-search"
     },
     {
       "year": "2025",
@@ -1371,7 +1377,6 @@
       "year": "2024",
       "citation": "Hebaixu Wang, Meiqi Gong, Xiaoguang Mei, Hao Zhang, and Jiayi Ma*. \"Deep Unfolded Network with Intrinsic Supervision for Pan-sharpening\", in Proceedings of the Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), pp. 5419-5426, Feb. 2024.",
       "links": [],
-      "paperChecked": true,
       "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/28350",
       "paperSource": "crossref"
     },
@@ -1382,8 +1387,7 @@
       "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/28438",
       "paperSource": "verified-excel",
       "code": "https://github.com/XiaYifan1999/LOPR",
-      "codeSource": "verified-excel",
-      "paperChecked": true
+      "codeSource": "verified-excel"
     },
     {
       "year": "2024",
@@ -1399,8 +1403,7 @@
       "citation": "Shunxing Chen, Guobao Xiao, Ziwei Shi, Junwen Guo, and Jiayi Ma. \"SSL-Net: Sparse semantic learning for identifying reliable correspondences\", Pattern Recognition, 146, pp. 110039, Feb. 2024.",
       "links": [],
       "code": "https://github.com/guobaoxiao/SSL-Net",
-      "codeSource": "github-title-search",
-      "paperChecked": true
+      "codeSource": "github-title-search"
     },
     {
       "year": "2024",
@@ -1409,8 +1412,7 @@
       "paper": "https://ieeexplore.ieee.org/document/9833451/",
       "paperSource": "crossref",
       "code": "https://github.com/Linfeng-Tang/DRLIE",
-      "codeSource": "verified-excel",
-      "paperChecked": true
+      "codeSource": "verified-excel"
     },
     {
       "year": "2024",
@@ -1460,8 +1462,7 @@
       "citation": "Erting Pan, Yong Ma, Xiaoguang Mei, Jun Huang, Qihai Chen, and Jiayi Ma. \"Hyperspectral image destriping and denoising from a task decomposition view\", Pattern Recognition, 144, pp. 109832, Dec. 2023.",
       "links": [],
       "code": "https://github.com/EtPan/SLDR",
-      "codeSource": "github-title-search",
-      "paperChecked": true
+      "codeSource": "github-title-search"
     },
     {
       "year": "2023",
@@ -1535,8 +1536,7 @@
     {
       "year": "2023",
       "citation": "Jun Yue, Leyuan Fang, Shaobo Xia, Yue Deng, and Jiayi Ma. \"Dif-Fusion: Towards High Color Fidelity in Infrared and Visible Image Fusion with Diffusion Models\", IEEE Transactions on Image Processing, 32, pp. 5705-5720, Oct. 2023.",
-      "links": [],
-      "paperChecked": true
+      "links": []
     },
     {
       "year": "2023",
@@ -1743,7 +1743,9 @@
       "year": "2023",
       "citation": "Jingtao Wang, Xin Liu, Luanyuan Dai, Jiayi Ma, Lifang Wei, Changcai Yang, and Riqing Chen. \"PG-Net: Progressive Guidance Network via Robust Contextual Embedding for Efficient Point Cloud Registration\", IEEE Transactions on Geoscience and Remote Sensing, 61, pp. 5701712, Apr. 2023.",
       "links": [],
-      "paperChecked": true
+      "paperChecked": true,
+      "paper": "https://ieeexplore.ieee.org/document/10098825/",
+      "paperSource": "crossref"
     },
     {
       "year": "2023",
@@ -1765,7 +1767,9 @@
       "year": "2023",
       "citation": "Junwen Guo, Guobao Xiao, Zhimin Tang, Shunxing Chen, Shiping Wang, and Jiayi Ma. \"Learning for Feature Matching via Graph Context Attention\", IEEE Transactions on Geoscience and Remote Sensing, 61, pp. 5102714, Mar. 2023.",
       "links": [],
-      "paperChecked": true
+      "paperChecked": true,
+      "paper": "https://ieeexplore.ieee.org/document/10075633/",
+      "paperSource": "crossref"
     },
     {
       "year": "2023",
@@ -1793,7 +1797,9 @@
       "year": "2023",
       "citation": "Ziwei Shi, Guobao Xiao, Linxin Zheng, Jiayi Ma, and Riqing Chen. \"JRA-Net: Joint Representation Attention Network for Correspondence Learning\", Pattern Recognition, 135, pp. 109180, Mar. 2023.",
       "links": [],
-      "paperChecked": true
+      "paperChecked": true,
+      "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0031320322006598",
+      "paperSource": "crossref"
     },
     {
       "year": "2023",
@@ -2166,7 +2172,8 @@
     {
       "year": "2022",
       "citation": "Luanyuan Dai, Yizhang Liu, Jiayi Ma, Lifang Wei, Taotao Lai, Changcai Yang, Riqing Chen. \"MS2DG-Net: Progressive Correspondence Learning via Multi Sparse Semantic Dynamic Graph\", in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 8973-8982, Jun. 2022.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2022",
@@ -2203,29 +2210,34 @@
       "codeSource": "verified-excel",
       "citations": 1223,
       "esiHighlyCited": true,
-      "esiHot": true
+      "esiHot": true,
+      "paperChecked": true
     },
     {
       "year": "2022",
       "citation": "Shunxing Chen, Linxin Zheng, Guobao Xiao, Zhen Zhong, and Jiayi Ma. \"CSDA-Net: Seeking Reliable Correspondences by Channel-Spatial Difference Augment Network\", Pattern Recognition, 126, pp. 108539, Jun. 2022.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2022",
       "citation": "Guorong Lin, Xin Liu, Fangfang Lin, Guobao Xiao, and Jiayi Ma. \"RANet: A Relation-Aware Network for Two-view Correspondence Learning\", Neurocomputing, 488, pp. 547-556, Jun. 2022.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2022",
       "citation": "Jiayi Ma, Shenyue Wang, Kaining Zhang, Zheng He, Jun Huang, and Xiaoguang Mei. \"Fast and Robust Loop-closure Detection via Convolutional Auto-encoder and Motion Consensus\", IEEE Transactions on Industrial Informatics, 18(6), pp. 3681-3691, Jun. 2022.",
-      "links": []
+      "links": [],
+      "paperChecked": true
     },
     {
       "year": "2022",
       "citation": "Jiayi Ma, Chengli Peng, Xin Tian, and Junjun Jiang. \"DBDnet: A Deep Boosting Strategy for Image Denoising\", IEEE Transactions on Multimedia, 24, pp. 3157-3168, Jun. 2022.",
       "links": [],
       "code": "https://github.com/pcl111/DBDNet",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "paperChecked": true
     },
     {
       "year": "2022",
