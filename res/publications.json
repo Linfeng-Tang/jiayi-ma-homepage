@@ -1,7 +1,7 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
   "selectedSource": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor",
-  "syncedAt": "2026-08-18T07:09:21Z",
+  "syncedAt": "2026-08-18T13:12:48Z",
   "selectedTitles": [
     "Towards Heterogeneous-Degradation-Robust Image Fusion with Controllable Generative Modulation",
     "GText-IF: Leveraging Text-Driven Semantics for Degradation-Aware Image Fusion",
@@ -2231,7 +2231,8 @@
       "citation": "Jiayi Ma, Chengli Peng, Xin Tian, and Junjun Jiang. \"DBDnet: A Deep Boosting Strategy for Image Denoising\", IEEE Transactions on Multimedia, 24, pp. 3157-3168, Jun. 2022.",
       "links": [],
       "code": "https://github.com/pcl111/DBDNet",
-      "codeSource": "verified-excel"
+      "codeSource": "verified-excel",
+      "paperChecked": true
     },
     {
       "year": "2022",
@@ -2246,11 +2247,10 @@
       "year": "2022",
       "citation": "Meiqi Gong, Jiayi Ma*, Han Xu, Xin Tian, and Xiao-Ping Zhang. \"D2TNet: A ConvLSTM Network with Dual-direction Transfer for Pan-sharpening\", IEEE Transactions on Geoscience and Remote Sensing, 60, pp. 5409114, May 2022.",
       "links": [],
-      "code": "https://github.com/pcl111/CF-Net",
-      "codeSource": "verified-excel",
-      "paperChecked": true,
       "paper": "https://ieeexplore.ieee.org/document/9761261/",
-      "paperSource": "crossref"
+      "paperSource": "crossref",
+      "code": "https://github.com/pcl111/CF-Net",
+      "codeSource": "verified-excel"
     },
     {
       "year": "2022",
@@ -2270,12 +2270,11 @@
       "year": "2022",
       "citation": "Peng Yi, Zhongyuan Wang, Kui Jiang, Junjun Jiang, Tao Lu, and Jiayi Ma. \"A Progressive Fusion Generative Adversarial Network for Realistic and Consistent Video Super-Resolution\", IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(5), pp. 2264-2280, May 2022.",
       "links": [],
+      "paper": "https://ieeexplore.ieee.org/document/9279273/",
+      "paperSource": "crossref",
       "code": "https://github.com/psychopa4/MSHPFNL",
       "codeSource": "github-title-search",
-      "esiHighlyCited": true,
-      "paperChecked": true,
-      "paper": "https://ieeexplore.ieee.org/document/9279273/",
-      "paperSource": "crossref"
+      "esiHighlyCited": true
     },
     {
       "year": "2022",
@@ -2307,7 +2306,6 @@
       "year": "2022",
       "citation": "Zizhuo Li, Yong Ma, Xiaoguang Mei, Jun Huang, and Jiayi Ma*. \"Guided neighborhood affine subspace embedding for feature matching\", Pattern Recognition, 124, pp. 108489, Apr. 2022.",
       "links": [],
-      "paperChecked": true,
       "paper": "https://linkinghub.elsevier.com/retrieve/pii/S0031320321006658",
       "paperSource": "crossref"
     },
@@ -2412,7 +2410,9 @@
       "year": "2022",
       "citation": "Xin Tian, Rui Liu, Zhongyuan Wang, and Jiayi Ma. \"High quality 3D reconstruction based on fusion of polarization imaging and binocular stereo vision\", Information Fusion, 77, pp. 19-28, Jan. 2022.",
       "links": [],
-      "paperChecked": true
+      "paperChecked": true,
+      "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253521001421",
+      "paperSource": "crossref"
     },
     {
       "year": "2022",
@@ -2430,7 +2430,9 @@
       "links": [],
       "code": "https://github.com/qiwenjjin/TANet",
       "codeSource": "github-title-search",
-      "paperChecked": true
+      "paperChecked": true,
+      "paper": "https://ieeexplore.ieee.org/document/9489359/",
+      "paperSource": "crossref"
     },
     {
       "year": "2022",
@@ -2649,7 +2651,9 @@
       "year": "2021",
       "citation": "Guobao Xiao, Hanzi Wang, Jiayi Ma, and David Suter. \"Segmentation by Continuous Latent Semantic Analysis for Multi-structure Model Fitting\", International Journal of Computer Vision, 129(7), pp. 2034-2056, Jul. 2021.",
       "links": [],
-      "paperChecked": true
+      "paperChecked": true,
+      "paper": "https://link.springer.com/10.1007/s11263-021-01468-6",
+      "paperSource": "crossref"
     },
     {
       "year": "2021",
@@ -2674,7 +2678,8 @@
       "citation": "Ganghui Fan, Yong Ma, Jun Huang, Xiaoguang Mei, and Jiayi Ma. \"Robust graph autoencoder for hyperspectral anomaly detection\", in Proceedings of the IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), pp. 1830-1834, Jun. 2021.",
       "links": [],
       "code": "https://github.com/FGH00292/Hyperspectral-anomaly-detection-with-RGAE",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "paperChecked": true
     },
     {
       "year": "2021",
@@ -2816,7 +2821,8 @@
       "citation": "Huabing Zhou, Jilei Hou, Wei Wu, Yanduo Zhang, Yuntao Wu, and Jiayi Ma*. \"Infrared and Visible Image Fusion Based on Semantic Segmentation\", Journal of Computer Research and Development (计算机研究与发展，CCF A类中文期刊), 58(2), pp. 436-443, Feb. 2021.",
       "links": [],
       "code": "https://github.com/Linfeng-Tang/SeAFusion",
-      "codeSource": "github-title-search"
+      "codeSource": "github-title-search",
+      "paperChecked": true
     },
     {
       "year": "2021",
