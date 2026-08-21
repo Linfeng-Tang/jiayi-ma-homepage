@@ -1,7 +1,7 @@
 {
   "source": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor/publications",
   "selectedSource": "https://sites.google.com/site/jiayima2013/jiayi-ma-%E9%A9%AC%E4%BD%B3%E4%B9%89-professor",
-  "syncedAt": "2026-08-21T02:00:57Z",
+  "syncedAt": "2026-08-21T07:12:02Z",
   "selectedTitles": [
     "Towards Heterogeneous-Degradation-Robust Image Fusion with Controllable Generative Modulation",
     "GText-IF: Leveraging Text-Driven Semantics for Degradation-Aware Image Fusion",
@@ -144,8 +144,8 @@
       "year": "2026",
       "citation": "Jianfeng Ding, Hao Zhang, Zhongyuan Wang, Jinsheng Xiao, Xin Tian, Zhen Han, and Jiayi Ma. \"CMVF: Cross-modal unregistered video fusion via spatio-temporal consistency\", Information Fusion, 132, pp. 104212, Aug. 2026.",
       "links": [],
-      "paper": "https://www.sciencedirect.com/science/article/pii/S1566253526000916",
-      "paperSource": "verified-excel",
+      "paper": "https://linkinghub.elsevier.com/retrieve/pii/S1566253526000916",
+      "paperSource": "crossref",
       "code": "https://github.com/jianfeng0369/CMVF",
       "codeSource": "github-discovery",
       "paperChecked": true
@@ -4107,5 +4107,5 @@
       "paperSource": "crossref"
     }
   ],
-  "citationSyncedAt": "2026-08-21T02:02:04Z"
+  "citationSyncedAt": "2026-08-21T07:13:08Z"
 }
